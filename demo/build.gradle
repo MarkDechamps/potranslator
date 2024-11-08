@@ -19,6 +19,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'javax.json:javax.json-api:1.1.4'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

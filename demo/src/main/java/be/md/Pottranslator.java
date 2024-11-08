@@ -17,7 +17,8 @@ public class Pottranslator {
     public static final String LLAMA_API_URL = "http://localhost:11434/api/chat"; // Pas aan aan jouw setup
 
     public static void main(String[] args) throws IOException {
-        String poFilePath = "C:/mark/chesstempo/nl_NL.po";
+        String poFilePath = "C:/mark/dev/potranslator/demo/input/nl_NL.po";
+
         List<String> poLines = Files.readAllLines(Paths.get(poFilePath));
         List<String> updatedPoLines = new ArrayList<>();
 
@@ -27,7 +28,7 @@ public class Pottranslator {
         var prompt = createPrompt();
 
         for (String line : poLines) {
-            line = line.trim();
+            //line = line.trim();
 
             if (line.startsWith("msgid")) {
                 currentMsgid = extractText(line);
@@ -39,7 +40,7 @@ public class Pottranslator {
             // Vertaal en voeg toe
             if (needsTranslation && StringUtils.hasText(currentMsgid)) {
                 String translation = llamaTranslate(prompt + currentMsgid);
-                if (translation.length() < 50) {
+                if (translation.length() < 100) {
                     updatedPoLines.add("msgstr \"" + translation + "\"");
                 } else {
                     log("Too long: [" + translation + "]");
@@ -47,7 +48,7 @@ public class Pottranslator {
 
                 needsTranslation = false;
 
-                log(currentMsgid + "==>" + translation);
+                //log(currentMsgid + "==>" + translation);
                 currentMsgid = null;
             } else {
                 updatedPoLines.add(line); // Voeg originele lijn toe
@@ -62,6 +63,7 @@ public class Pottranslator {
         var library = createLibrary();
         library += "When KRBNKRB is passed in it should be translated to KTLPKTL. The first character of the name of the piece.";
         library += "Try to keep the same layout, also for capitals.";
+        library += "Everything between {} you take over literally.";
         return "I will pass a line to you which you should translate in dutch." + library + " Only return the proper translation or,if it would be unclear to you then return nothing (not a word even). Don't explain, don't ask questions, don't be polite. Don't respond with anything else then a translation or an empty string as this input will be used in an automatic translation process so it needs to be right or empty. This is the line:";
     }
 
@@ -78,7 +80,25 @@ public class Pottranslator {
         map.put("Counting", "Tellen");
         map.put("Engine", "Engine");
         map.put("Jailbreak", "Uitbraak");
+        map.put("Check", "Schaak");
         map.put("Loss", "Verlies");
+        map.put("Control", "Controleren");
+        map.put("Discovery", "Aftrekaanval");
+        map.put("Mate", "Mat");
+        map.put("Square", "Veld");
+        map.put("Multi-Square", "Meerdere Velden");
+        map.put("Pendulum", "Pendulum");
+        map.put("Queen", "Dame");
+        map.put("Rook", "Toren");
+        map.put("Cutoff", "Afgesneden");
+        map.put("Recapture", "Terug slaan");
+        map.put("Capture", "Slaan");
+        map.put("Seizing", "Opeisen");
+        map.put("Windmill", "Windmolen");
+        map.put("castle", "rokeren");
+        map.put("castle king side", "korte rokade");
+        map.put("castle queen side", "lange rokade");
+        map.put("unseen", "ongezien");
 
         return "The subject is chess. Use this words to help with the translation: " + map + ".";
     }

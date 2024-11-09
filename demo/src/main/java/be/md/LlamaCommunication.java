@@ -18,9 +18,13 @@ public class LlamaCommunication {
 
     public static String sendHttpPostRequest(String url, String text) throws IOException, InterruptedException {
         // Maak een JSON payload voor de vertaling
+        //"model": "llama3.1",
         String json = """
                 {
-                 "model": "llama3.1",
+                 "model": "aya-expanse",
+                 "stream": false,
+                 "temperature": 1,
+                 "min_p": 1,
                  "messages": [
                         { "role": "user", "content": "____PLACEHOLDER____" }
                   ]

@@ -1,5 +1,7 @@
 package be.md;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.util.StringUtils;
 
 import java.io.IOException;
@@ -63,14 +65,18 @@ public class Pottranslator {
         var library = createLibrary();
         library += "When KRBNKRB is passed in it should be translated to KTLPKTL. The first character of the name of the piece.";
         library += "Try to keep the same layout, also for capitals.";
-        library += "Everything between {} you take over literally.";
-        return "I will pass a line to you which you should translate in dutch." + library + " Only return the proper translation or,if it would be unclear to you then return nothing (not a word even). Don't explain, don't ask questions, don't be polite. Don't respond with anything else then a translation or an empty string as this input will be used in an automatic translation process so it needs to be right or empty. This is the line:";
+        library += "Everything between curly braces should be taken over literally.";
+        library += "If something starts with a capital letter it should be taken over.";
+        return "These labels from a chess application need to be translated from English to Dutch." + library
+                + " Only return the proper translation or,if it would be unclear to you then return nothing (not a word even). " +
+                "Don't explain, don't ask questions, don't be polite. Give ONLY the translation! " +
+                "This is the line:";
     }
 
     private static String createLibrary() {
         var map = new HashMap<>();
-        map.put("pin", "penning");
-        map.put("skewer", "spies");
+        map.put("Pin", "Penning");
+        map.put("Skewer", "Spies");
         map.put("blocking", "blokkeren");
         map.put("Benchmark", "Benchmark");
         map.put("Unpinning", "Ontpennen");
@@ -99,8 +105,24 @@ public class Pottranslator {
         map.put("castle king side", "korte rokade");
         map.put("castle queen side", "lange rokade");
         map.put("unseen", "ongezien");
+        map.put("Counter", "Counter");
+        map.put("Game", "Partij");
+        map.put("My Games", "Mijn Partijen");
+        map.put("Thema", "Thema");
+        map.put("Hit and run", "Slaan en weg");
+        map.put("Cross pin", "Kruispenning");
+        map.put("All Time High", "Persoonlijk record");
+        map.put("Streak", "Streak");
+        map.put("Moves", "Zetten");
+        map.put("Move", "Zet");
 
-        return "The subject is chess. Use this words to help with the translation: " + map + ".";
+        try {
+            var mapString = new ObjectMapper().writeValueAsString(map);
+            return " Use this lookup key-value json map (it is case insensitive) to help with the translation. The key is English, the value is the corresponding Dutch translation: " + mapString + "."
+                    + " Use this map as a helping tool. If something does not match, use the other rules.";
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static void log(String translation) {

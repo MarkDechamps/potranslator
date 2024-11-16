@@ -7484,7 +7484,7 @@ msgstr "Zoek filter"
 #
 #, fuzzy
 msgid "Explorer and games list"
-msgstr "Verkenner en spel lijst"
+msgstr "Verkenner en partijen lijst"
 
 #
 #, fuzzy
@@ -7494,7 +7494,7 @@ msgstr "Enkel de verkenner"
 #
 #, fuzzy
 msgid "Games list only"
-msgstr "Enkel de lijst van spelen"
+msgstr "Enkel partijen lijst"
 
 #
 #. / Label for preferences tab
@@ -7505,22 +7505,22 @@ msgstr "Raad de zet"
 # 
 #, fuzzy
 msgid "Move to next move automatically"
-msgstr "Ga naar de volgende zet"
+msgstr "Ga automatisch naar de volgende zet"
 
 #. / Label for preferences tab
 #, fuzzy
 msgid "Achievements"
-msgstr "Geen verwezelijkingen"
+msgstr "Verwezelijkingen"
 
 #
 #, fuzzy
 msgid "Achievement notifications"
-msgstr "Doelstelling notificaties"
+msgstr "Verwezelijkingen notificaties"
 
 #
 #, fuzzy
 msgid "Achievement notification method"
-msgstr "Doestellinge notificatie methode"
+msgstr "Verwezelijking notificatie methode"
 
 #
 msgid "Dialog"
@@ -7532,7 +7532,7 @@ msgid "Notification panel"
 msgstr "Notificatie paneel"
 
 msgid "Receive book recommendations in:"
-msgstr "Ontvang boekaanbevelingen in:"
+msgstr "Ontvang boek aanbevelingen in:"
 
 # 
 #, fuzzy
@@ -7542,31 +7542,31 @@ msgstr "Tactiektraining"
 # 
 #, fuzzy
 msgid "Endgame training"
-msgstr "Eindspel - Theorierangschikking"
+msgstr "Eindspel training"
 
 # 
 #, fuzzy
 msgid "Online playing"
-msgstr "Online Spelers"
+msgstr "Online spelen"
 
 # 
 #, fuzzy
 msgid "GTM training"
-msgstr "Schaaktraining"
+msgstr "GTM training"
 
 # 
 #. / Label for preferences tab
 #, fuzzy
 msgid "My problems"
-msgstr "Alle opgaven"
+msgstr "Mijn problemen"
 
 msgid "Options to control problem generation from your games."
-msgstr "Opties om het probleem van het genereren van problemen uit je partijen te beheersen."
+msgstr "Configuratie Opties ivm probleem generatie uit je partijen."
 
 #
 #, fuzzy
 msgid "Longest missed mate"
-msgstr "Langer mat"
+msgstr "Langste gemiste mat"
 
 msgid ""
 "The longest best mate output when you play a suboptimal mate, e.g. 3 means "
@@ -7577,7 +7577,7 @@ msgstr ""
 # 
 #, fuzzy
 msgid "Missed mate minimum difference"
-msgstr "Materieel Verschil"
+msgstr "Gemiste mat minimum verschil"
 
 msgid ""
 "For missed best mates, the minimum difference between fastest and played "
@@ -7609,7 +7609,7 @@ msgid ""
 msgstr ""
 
 msgid "Missed short mate for non-mate material threshold"
-msgstr "Gemiste korte mat voor materiaal drempel die geen mat is"
+msgstr "Gemiste korte mat voor niet-mat materiaal drempel"
 
 msgid ""
 "If you miss a short mate for a non-mating move , a problem will be generated "
@@ -7622,7 +7622,7 @@ msgstr ""
 #
 #, fuzzy
 msgid "Very losing threshold"
-msgstr "Lage tijd drempel"
+msgstr "Erg verliezende drempel"
 
 msgid ""
 "Minimum evaluation determining if a position is very losing. Used to rule "
@@ -7669,12 +7669,12 @@ msgid "Diamond"
 msgstr "Diamant"
 
 msgid "CPU threads per engine"
-msgstr "CPU-draadjes per motor"
+msgstr "CPU-threads per engine"
 
 # 
 #, fuzzy
 msgid "Set threads per engine"
-msgstr "Begin Engine-Analyse"
+msgstr "Zet aantal threads per engine"
 
 # 
 #, fuzzy
@@ -7694,11 +7694,11 @@ msgstr "Tijd (minuten:seconden)"
 
 #, fuzzy
 msgid "Maximum length of inserted lines"
-msgstr "Maximale Lengte van Ingevoegde Varianten"
+msgstr "Maximale Lengte van ingevoegde varianten"
 
 #, fuzzy
 msgid "half moves"
-msgstr "(In halve zetten)"
+msgstr "halve zetten"
 
 #, fuzzy
 msgid "Output threshold"
@@ -7710,16 +7710,16 @@ msgstr "(in pionnen)"
 
 #, fuzzy
 msgid "Evaluation for every move"
-msgstr "Evaluatie vanuit Wits standpunt:"
+msgstr "Evaluatie voor elke zet"
 
 #, fuzzy
 msgid "Moves to analyse"
-msgstr "Analysekleur"
+msgstr "Te analyseren zetten"
 
 #
 #, fuzzy
 msgid "All moves"
-msgstr "Speel zetten"
+msgstr "Alle zetten"
 
 #
 #, fuzzy
@@ -7734,7 +7734,7 @@ msgstr "Zwart aan zet"
 #
 #, fuzzy
 msgid "Annotate game"
-msgstr "Annoteer"
+msgstr "Annoteer partij"
 
 #
 msgid "Start"
@@ -7745,27 +7745,27 @@ msgid "Mate"
 msgstr "Mat"
 
 msgid "Move as {COLOUR_TO_MOVE}"
-msgstr "Beweging als {KLEUR_TOT_BEWEGEN}"
+msgstr "Beweging als {COLOUR_TO_MOVE}"
 
 # 
 #, fuzzy
 msgid "Stop play vs computer"
-msgstr "Spel tegen Computer"
+msgstr "Stop spelen tegen computer"
 
 # 
 #, fuzzy
 msgid "Play vs computer"
-msgstr "Spel tegen Computer"
+msgstr "Speel vs computer"
 
 # 
 #, fuzzy
 msgid "Stop computer vs computer"
-msgstr "Spel tegen Computer"
+msgstr "Stop computer vs computer"
 
 # 
 #, fuzzy
 msgid "Computer vs computer"
-msgstr "Spel tegen Computer"
+msgstr "Comuter tegen computer"
 
 #
 msgid "Stop"
@@ -7789,23 +7789,23 @@ msgid "# Lines"
 msgstr "# Lijnen"
 
 msgid "More engine lines"
-msgstr "Meer motorlijnen"
+msgstr "Meer engine lijnen"
 
 #
 #, fuzzy
 msgid "Less engine lines"
-msgstr "Schaakengines"
+msgstr "Minder engine lijnen"
 
 #
 #, fuzzy
 msgid "Toggle engine lock"
-msgstr "Toon details"
+msgstr "Verzet engine lock"
 
 msgid "Toggle engine line wrapping"
-msgstr "Schakel lijnbreking van motor uit"
+msgstr "Verzet engine line wrapping"
 
 msgid "Set CPU thread usage"
-msgstr "Stel CPU-draadgebruik in"
+msgstr "Stel CPU-thread gebruik in"
 
 #. abbreviation for million nodes
 msgid "M"
@@ -7838,23 +7838,23 @@ msgstr "D"
 #
 #, fuzzy
 msgid "Stop all engines"
-msgstr "Stop Engine-analyse"
+msgstr "Stop alle engines"
 
 #
 #, fuzzy
 msgid "Change threads"
-msgstr "Verander set"
+msgstr "Verander threads"
 
 #
 #, fuzzy
 msgid "Too many engines or engine threads"
-msgstr "Teveel witte koningen op het bord"
+msgstr "Teveel engines of engine threads"
 
 msgid "Please stop other engines or decrease the number of threads."
-msgstr "Stop andere engines of verlaag het aantal threads."
+msgstr "Stop andere engines of verlaag het aantal threads aub."
 
 msgid "Please stop other engines."
-msgstr "Stop andere engines."
+msgstr "Stop andere engines aub."
 
 msgid ""
 "You are currently using {USING_NUMBER} thread, requested {REQUESTED_NUMBER} "
@@ -7872,7 +7872,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Analysis quota exceeded."
-msgstr "Analysebord"
+msgstr "Analyse quota overschreden"
 
 msgid "Upgrade membership to get more analysis"
 msgstr "Upgraden lidmaatschap om meer analyse te krijgen"
@@ -7880,7 +7880,7 @@ msgstr "Upgraden lidmaatschap om meer analyse te krijgen"
 #
 #, fuzzy
 msgid "{ENGINE_SCORE} D{ENGINE_DEPTH}"
-msgstr "{ENGINE_NAME} door {ENGINE_AUTHOR}"
+msgstr "{ENGINE_SCORE} D{ENGINE_DEPTH}"
 
 #
 msgid "Chat enabled. Click to disable chat"
@@ -7896,11 +7896,11 @@ msgstr "Chat uitgeschakeld, klik om deze in te schakelen"
 
 #
 msgid "Register and login to chat"
-msgstr "Om te chatten moet je registeren/inloggen"
+msgstr "Registreer en login om te chatten"
 
 #
 msgid "could not parse chat command"
-msgstr "onbekend klets commando"
+msgstr "fout in chat commando "
 
 #
 #. help command help message
@@ -8003,17 +8003,17 @@ msgstr "Negeer alles"
 #
 #, fuzzy
 msgid "Activity Sub Type"
-msgstr "Soort"
+msgstr "Activiteit Sub Type"
 
 #
 #, fuzzy
 msgid "Activity"
-msgstr "Dagelijkse activiteit"
+msgstr "Activiteit"
 
 #
 #, fuzzy
 msgid "No activity"
-msgstr "Dagelijkse activiteit"
+msgstr "Geen activiteit"
 
 #
 #, fuzzy
@@ -8024,7 +8024,7 @@ msgstr "Tactiek"
 #. Any rating type
 #, fuzzy
 msgid "Any Tactics"
-msgstr "Tactiek"
+msgstr "Alle Tactiek"
 
 #
 #, fuzzy
@@ -8048,13 +8048,13 @@ msgid "Best Completed In Period"
 msgstr "Beste Voltooid in Periode"
 
 msgid "Done In Current Period"
-msgstr ""Afgerond in huidige periode""
+msgstr "Afgerond in huidige periode"
 
 msgid "Correct In Current Period"
 msgstr "Het correcte in huidige periode"
 
 msgid "Best Activity Streak For Period"
-msgstr "Beste activiteitensequentie voor periode"
+msgstr "Beste Activiteitsreeks voor periode"
 
 msgid "Best Successful Activity Streak For Period"
 msgstr "Beste reeks succesvolle activiteiten voor periode"
@@ -8073,7 +8073,7 @@ msgstr "Aantal keer opgave correct"
 #
 #, fuzzy
 msgid "Best Rating"
-msgstr "Beste Gebruikers Score"
+msgstr "Beste Rating"
 
 #
 #. Guess the Move score label
@@ -8129,13 +8129,13 @@ msgid "Best Won In Period"
 msgstr "Beste Gewonnen in Periode"
 
 msgid "Best Played In Period"
-msgstr "Beste Speelperiode"
+msgstr "Beste Gespeeld in Periode"
 
 msgid "Played In Current Period"
-msgstr "Speel in Huidige Periode"
+msgstr "Gespeeld in Huidige Periode"
 
 msgid "Won In Current Period"
-msgstr "Wonnen in Huidige Periode"
+msgstr "Gewonnen in Huidige Periode"
 
 #
 #, fuzzy
@@ -8148,7 +8148,7 @@ msgid "Total Played"
 msgstr "Kleur om te spelen"
 
 msgid "Hours Spent Playing"
-msgstr "Uur(en) Geworsteld"
+msgstr "Uur(en) gespeeld"
 
 #
 msgid "Guess The Move"
@@ -8326,7 +8326,7 @@ msgid "Add Evaluation"
 msgstr "Engine-instellingen"
 
 msgid "Insert null move"
-msgstr "Voer een null-beweging in"
+msgstr "Voer een null-zet in"
 
 #
 #. ** Prefix to variation line showing move during engine analysis
@@ -8420,13 +8420,13 @@ msgid "Error loading PGN"
 msgstr "Fout bij laden data"
 
 msgid "O-O"
-msgstr "O-O -> O-O (vertaling al in het Engels en Nederlands identiek)"
+msgstr "O-O"
 
 msgid "O-O-O"
-msgstr "O-O-O -> O-O-O (gehouden als letterlijke tekst, aangezien het een sequentie van bewegingen is)"
+msgstr "O-O-O"
 
 msgid "Move pieces mode"
-msgstr "Beweg stukken modus"
+msgstr "Beweeg stukken modus"
 
 #
 #, fuzzy
@@ -8529,14 +8529,14 @@ msgid "Jump to start/end"
 msgstr "Ga naar begin"
 
 msgid "Rotate board"
-msgstr "Rotatie bord"
+msgstr "Roteer bord"
 
 #, fuzzy
 msgid "Add evaluation score for move"
 msgstr "Evaluatie vanuit Wits standpunt:"
 
 msgid "Toggle folding on the current variation"
-msgstr "Vouwing inschakelen voor de huidige variantie"
+msgstr "Vouwing inschakelen voor de huidige variant"
 
 # 
 #, fuzzy
@@ -8556,13 +8556,13 @@ msgstr "Aantal Partijen"
 
 #. / board co-ordinate style
 msgid "Left and bottom"
-msgstr "Linkeronderhoek"
+msgstr "Links en bodem"
 
 #
 #. / board co-ordinate style
 #, fuzzy
 msgid "Internal"
-msgstr "Onderbreken"
+msgstr "Intern"
 
 #
 #. / Label for board preferences impacting the view of the board. String needs to be as short as possible
@@ -8694,10 +8694,10 @@ msgid "Standard (e.g. Na3)"
 msgstr "Standaard (bijvoorbeeld Na3)"
 
 msgid "FIDE (e.g. knight anna 3)"
-msgstr "FIDE (bijvoorbeeld ridder anna 3)"
+msgstr "FIDE (bijvoorbeeld knight anna 3)"
 
 msgid "NATO (.e.g. knight alpha 3)"
-msgstr "NATO (bijvoorbeeld ridder alfa 3)"
+msgstr "NATO (bijvoorbeeld knight alfa 3)"
 
 #
 #, fuzzy
@@ -8746,7 +8746,7 @@ msgid "Move back. Shift-click/Middle-click jump to start"
 msgstr "Ga terug. Schuif/klik met de muis om te beginnen"
 
 msgid "Move forward. Shift-click/Middle-click jump to end"
-msgstr "Voer vooruit. Shift-klik/Middel-klik om naar het einde te springen"
+msgstr "Zet vooruit. Shift-klik/Middel-klik om naar het einde te springen"
 
 #
 msgid "Jump to end"
@@ -8839,7 +8839,7 @@ msgid "Kingdom"
 msgstr "Kingdom"
 
 msgid "Belladonna"
-msgstr "Belladonna -> Belladona"
+msgstr "Belladonna"
 
 # 
 #, fuzzy
@@ -8850,13 +8850,13 @@ msgid "Amarena - Black"
 msgstr "Amarena - Zwart"
 
 msgid "Padre"
-msgstr "Nothing (no translation provided for "Padre" as it does not match any of the given labels)"
+msgstr "Padre"
 
 msgid "Cielo"
-msgstr "Hemel"
+msgstr "Cielo"
 
 msgid "Ebony and Ivory"
-msgstr "Zwart en Wit"
+msgstr "Ebony and Ivory"
 
 #
 #, fuzzy
@@ -8864,7 +8864,7 @@ msgid "Cardinal"
 msgstr "Coördinaten"
 
 msgid "Gioco"
-msgstr "Spel"
+msgstr "Gioco"
 
 msgid "Governor"
 msgstr "Gouverneur"
@@ -8873,7 +8873,7 @@ msgid "Mastro"
 msgstr "Meester"
 
 msgid "Staunty"
-msgstr "Staunty -> Stuitende zet"
+msgstr "Staunty"
 
 msgid "Kosal"
 
@@ -8924,12 +8924,12 @@ msgid "Annotations"
 msgstr "Zet commentaar"
 
 msgid "Enter move , e.g. e2e4, e1g1 to castle, e7e8q to promote"
-msgstr "Beweging invoeren, bijvoorbeeld e2e4, e1g1 om te rokken, e7e8q om te promoten"
+msgstr "Voer zet in, bv e2e4, e1g1 om te rokeren, e7e8q om te promoveren"
 
 #
 #, fuzzy
 msgid "Make move"
-msgstr "Zwart aan zet"
+msgstr "Doe een zet"
 
 #
 #, fuzzy
@@ -8955,7 +8955,7 @@ msgid "Brown"
 msgstr "Bruin"
 
 msgid "Mint"
-msgstr "Mentel"
+msgstr "Munt"
 
 #
 #, fuzzy
@@ -9495,7 +9495,7 @@ msgid "Av Time"
 msgstr "Gem. Tijd"
 
 msgid "Problems solved faster/slower than average time for all solvers"
-msgstr "Problemen opgelost sneller/langzamer dan het gemiddelde tijd voor alle oplossers"
+msgstr "Problemen opgelost sneller/langzamer dan gemiddelde tijd voor van oplossers"
 
 msgid "Speed"
 msgstr "Snelheid"
@@ -9512,7 +9512,7 @@ msgstr "Gemiddelde score: "
 
 #, javascript-format
 msgid "{AVERAGE_SCORE}% score"
-msgstr "Gemiddelde scor {AVERAGE_SCORE}%"
+msgstr "Gemiddelde score {AVERAGE_SCORE}%"
 
 # 
 #, fuzzy
@@ -9796,14 +9796,14 @@ msgstr "Wachten op de zet van Zwart"
 
 #. /Abbreviated label for alternative move
 msgid "TRY AGAIN"
-msgstr "Probeer het opnieuw"
+msgstr "PROBEER OPNIEUW"
 
 msgid "FOLLOW"
-msgstr "Volg"
+msgstr "VOLG"
 
 #. ** Label for tactic solution move played in game for my games problems
 msgid "GAME MOVE"
-msgstr "SPEL MOUVEMENT"
+msgstr "GESPEELDE ZET"
 
 #. /Abbreviated label for alternative move
 msgid "GOOD MOVE"
@@ -9920,7 +9920,7 @@ msgid "Problem getting tactic"
 msgstr "Rating van het probleem: "
 
 msgid "Attempting to load too many problems too quickly."
-msgstr "Prober te veel problemen te snel te laden."
+msgstr "Aan het proberen om te veel problemen te snel te laden."
 
 # 
 #, fuzzy
@@ -9928,7 +9928,7 @@ msgid "Rate limited"
 msgstr "Onbeperkt"
 
 msgid "Attempting to resume problem, but no problem is pending."
-msgstr "Proberen het probleem opnieuw op te nemen, maar er staat geen probleem in afwachting."
+msgstr "Proberen verder te doen met het probleem , maar er is nog een probleem bezig."
 
 msgid "Attempting to get problem of wrong type."
 msgstr "Probeer een probleem van verkeerde type te krijgen."
@@ -9981,7 +9981,7 @@ msgstr ""
 "gesorteerde reeks door op volgende opgave te klikken."
 
 msgid "Congratulations, you finished the set!"
-msgstr "Gefeliciteerd, je hebt het set voltooid!"
+msgstr "Gefeliciteerd, je hebt de set voltooid!"
 
 #
 #, fuzzy
@@ -9999,7 +9999,7 @@ msgid "{NUMBER_PROBLEMS} in set"
 msgstr "( {NUM_PROBLEMS} in reeks)"
 
 msgid "No problems can currently be scheduled, next scheduled time is {TIME}."
-msgstr "Geen problemen kunnen momenteel worden gepland, volgende geplande tijd is {TIME}."
+msgstr "Geen problemen kunnen momenteel worden ingepland, volgende geplande tijd is {TIME}."
 
 #
 #, fuzzy
@@ -10020,17 +10020,17 @@ msgid ""
 msgstr "Aan het leren: {NUM_LEARNING}, Ingeroosterd: {NUM_SCHEDULED}"
 
 msgid "Loop {LOOP_COUNTER}"
-msgstr "Lupe {TEKEN_TELER}"
+msgstr "Lus {LOOP_COUNTER}"
 
 #
 #, fuzzy
 msgid "Loop settings"
-msgstr "Bordinstellingen"
+msgstr "Lus instellingen"
 
 # 
 #, fuzzy
 msgid "CT Problem"
-msgstr "Probleemstellingen"
+msgstr "CT Probleem"
 
 #
 #, fuzzy
@@ -10061,7 +10061,7 @@ msgid "Show the best move"
 msgstr "Speel de beste zet"
 
 msgid "{ALT_MOVE}: Following ALT"
-msgstr "{ "ALT_MOVE": "Alternatieve zet: KTLPKTL" }"
+msgstr "{ALT_MOVE}: Volgende ALT"
 
 #
 #. Output when the user plays an endgame move that takes longer than the fastest mate
@@ -10121,7 +10121,7 @@ msgid "Rating change"
 msgstr "Rating wijziging"
 
 msgid "Toggle list of keyboard shortcuts"
-msgstr "Schakel lijst met toetsenbordsnelkoppelingen"
+msgstr "Toggle lijst met keyboard shortcuts"
 
 #
 msgid "Help"
@@ -10129,11 +10129,11 @@ msgstr "Hulp"
 
 #. Shift key name
 msgid "Shift"
-msgstr "Verplaats"
+msgstr "Shift"
 
 #. Enter key name
 msgid "Enter"
-msgstr "Geef invoer."
+msgstr "Enter"
 
 #. Return key name
 msgid "Return"
@@ -10143,7 +10143,7 @@ msgid "Esc"
 
 #. Abbreviation for control key
 msgid "Ctrl"
-msgstr "Controleren"
+msgstr "Ctrl"
 
 #. abbreviation for apple command key
 msgid "Cmd"
@@ -10308,7 +10308,7 @@ msgid "Only mates"
 msgstr "Zwart zet schaak"
 
 msgid "Only non-mates"
-msgstr "Alleen niet-mats"
+msgstr "Alleen niet-matten"
 
 msgid "Quality rating"
 msgstr "Kwaliteitsbeoordeling"
@@ -10430,7 +10430,7 @@ msgid "Attempt number match type"
 msgstr "Pogingen geschiedenis"
 
 msgid "Match correct AND failed range"
-msgstr ""Match correct en mislukte reeks""
+msgstr "Match correcte EN mislukte reeks"
 
 msgid "Match correct OR failed range"
 msgstr "Match correct OF mislukte reeks"
@@ -10483,7 +10483,7 @@ msgid "Set options"
 msgstr "Bewaar instellingen"
 
 msgid "Rating adjustment method"
-msgstr "Aanpassingsmethode van de beoordeling"
+msgstr "Rating aanpassing methode"
 
 #
 msgid "Untimed"
@@ -10509,7 +10509,7 @@ msgid "Sorted"
 msgstr "Afgebroken"
 
 msgid "Looping"
-msgstr "Lussen"
+msgstr "Lus"
 
 # 
 #, fuzzy
@@ -10520,13 +10520,13 @@ msgid "Learning period length (in problems)"
 msgstr "Leerperiode lengte (in problemen)"
 
 msgid "Learning period gap (in days)"
-msgstr "Leerperiodegap (in dagen)"
+msgstr "Leerperiode gap (in dagen)"
 
 msgid "Spacing growth rate"
-msgstr "Spatiëring groeisnelheid"
+msgstr "Ruimte Groei rating"
 
 msgid "Space growth limit"
-msgstr "Groei van ruimtelijke beperking"
+msgstr "Ruimte groei limiet"
 
 # 
 #, fuzzy
@@ -10537,7 +10537,7 @@ msgid "Maximum space growth limit"
 msgstr "Maximale ruimtegroei limiet"
 
 msgid "Difficulty estimate method"
-msgstr "Schatteringsschattingsmethode"
+msgstr "Moeilijkheids inschatting methode"
 
 # 
 #, fuzzy
@@ -10631,7 +10631,7 @@ msgid "Book Order"
 msgstr "Bladeren"
 
 msgid "First loop through set decides problems considered for subsequent loops"
-msgstr "Eerst doorlopen van de set bepaalt problemen in overweging voor volgende doorlopingen"
+msgstr "Eerst doorlopen set bepaalt problemen die in overweging genomen worden voor volgende doorlopingen"
 
 #
 #, fuzzy
@@ -10656,7 +10656,7 @@ msgid "Problem #"
 msgstr "Opgave #"
 
 msgid "Av secs"
-msgstr "In seconden"
+msgstr "Gem. seconden"
 
 #
 #, no-c-format, no-javascript-format
@@ -10684,7 +10684,7 @@ msgid "Manage sets"
 msgstr "Verander set"
 
 msgid "Save custom set as {SAVE_SET_NAME}"
-msgstr "Bewaar aangepaste set als {BEWAAR_SET_NAAM}"
+msgstr "Bewaar aangepaste set als {SAVE_SET_NAME}"
 
 #
 #, fuzzy
@@ -10779,7 +10779,7 @@ msgid "Confirm problem set removal"
 msgstr "Maak opgavenreeks"
 
 msgid "Merged set: {SET_NAME}"
-msgstr "Geïntegreerde set: {SET_NAAM}"
+msgstr "Samengevoegde set: {SET_NAME}"
 
 #
 #. ** Weighting for a merged set child
@@ -10798,7 +10798,7 @@ msgid "Last used"
 msgstr "Laatst Gespeeld"
 
 msgid "Undeletable problem set(s):{SET_NAMES}"
-msgstr "Onverwijderbare probleemset(ten):{SET_NAAMEN}"
+msgstr "Onverwijderbare probleemset(ten):{SET_NAMES}"
 
 # 
 #, fuzzy
@@ -10806,7 +10806,7 @@ msgid "Problem set name is already used"
 msgstr "Gebruikersnaam is al in gebruik."
 
 msgid "You need to login to perform problem searches"
-msgstr "Je moet inloggen om probleemzoeken uit te voeren"
+msgstr "Je moet inloggen om problem te kunnen zoeken"
 
 # 
 #, fuzzy
@@ -10878,8 +10878,7 @@ msgstr ""
 
 # 
 msgid "Black sacrifices the Rook to force the king onto the unsafe g2 square"
-msgstr "Zwart offers de Toren op om de koning naar het onveilige g2-veld te dwingen."
-"Zwart offert de toren om de koning naar het onveilige veld g2 te dwingen"
+msgstr "Zwart offert de Toren op om de koning naar het onveilige g2-veld te dwingen."
 
 # 
 msgid "White has no choice but to retake"
@@ -11071,7 +11070,7 @@ msgstr ""
 
 # 
 msgid "Black forks the bishop on a4 and the rook on d2"
-msgstr "Zwart steekt de bisschop op a4 en de toren op d2."
+msgstr "Zwart vorkt de loper op a4 en de toren op d2."
 
 # 
 msgid ""
@@ -11533,7 +11532,7 @@ msgstr ""
 # 
 #. 4000081
 msgid "A pawn mate is any mate delivered by a pawn on the final move."
-msgstr "Een pion mat is een mat die wordt geleverd door een pion in de laatste zet."
+msgstr "Een pion mat is elke mat door een pion op de laatste zet."
 
 # 
 #. 4000094
@@ -11768,9 +11767,8 @@ msgstr ""
 
 # 
 msgid "black looks in trouble, but is still hiding behind the h pawn"
-msgstr "Zwart lijkt in de problemen, maar verbergt zich nog steeds achter de h-pion."
-"zwart lijkt in de problemen te zitten, maar hij verschuilt zich nog achter "
-"de h-pion"
+msgstr "Zwart lijkt in de problemen te zitten, maar verbergt zich nog steeds achter de h-pion."
+
 
 # 
 msgid "White sacrifices the queen on h7, removing the pawn cover"
@@ -12012,7 +12010,7 @@ msgstr ""
 # 
 #, javascript-format
 msgid "The pawn on d6 is backwards [%csl Gd6]"
-msgstr "De pion op d6 beweegt achteruit [csl Gd6]"
+msgstr "De pion op d6 beweegt achteruit [%csl Gd6]"
 
 # 
 #. Positional motif tag description
@@ -12103,7 +12101,7 @@ msgstr ""
 # 
 #, javascript-format
 msgid "Black has connected pawns: one can defend the other. [%csl Gb5,Gc5]"
-msgstr "Zwart heeft verbonden pionnen: er kan één de andere verdedigen. [Gb5, Gc5]"
+msgstr "Zwart heeft verbonden pionnen: de een kan de andere verdedigen. [%csl Gb5,Gc5]"
 
 # 
 #. Positional motif tag description
@@ -12137,7 +12135,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "A move aimed at either defending a piece, a square or an enemy threat."
-msgstr "Een zet gericht op het verdedigen van een stuk, een veld of een vijandelijke bedreiging."
+msgstr "Een zet gericht op het verdedigen van een stuk, een veld of een vijandelijke dreiging."
 
 # 
 #. Positional motif tag description
@@ -12163,12 +12161,12 @@ msgstr ""
 # 
 #, javascript-format
 msgid "The bishop controls the a1-h8 diagonal. [%csl Gb2][%cal Gb2a1,Gb2h8]"
-msgstr "De bisschop controleert de diagonaal van a1 naar h8. [%csl Tb2][%cal Tb2a1,Tb2h8]"
+msgstr "De loper controleert de diagonaal van a1 naar h8. [%csl Gb2][%cal Gb2a1,Gb2h8]"
 
 # 
 #. Positional motif tag description
 msgid "The use of a queen or bishop to control a board diagonal."
-msgstr "Het gebruik van een dame of bisschop om een schakerdiagonaal te controleren."
+msgstr "Het gebruik van een dame of loper om een schakerdiagonaal te controleren."
 
 # 
 #, javascript-format
@@ -12195,7 +12193,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "Two pawns of the same colour on the same file."
-msgstr "Twee pionnen van dezelfde kleur op dezelfde kolom."
+msgstr "Twee pionnen van dezelfde kleur op dezelfde lijn."
 
 # 
 #, javascript-format
@@ -12221,7 +12219,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "A trade of pieces that improves the current position."
-msgstr "Een uitwisseling van stukken die de huidige positie verbetert."
+msgstr "Een ruil van stukken die de huidige stelling verbetert."
 
 # 
 #, javascript-format
@@ -12233,7 +12231,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "Control of a open or semi-open file by a rook or queen."
-msgstr "Controle van een open of halfopen rij door een toren of dame."
+msgstr "Controle van een open of halfopen lijn door een toren of dame."
 
 # 
 #, javascript-format
@@ -12464,7 +12462,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "A passed pawn located close to the edge of the board."
-msgstr "Een gepasseerde pion dicht bij de rand van het bord gelegen."
+msgstr "Een vrijpion dicht bij de rand van het bord."
 
 # 
 #, javascript-format
@@ -12487,7 +12485,7 @@ msgstr ""
 # 
 #, javascript-format
 msgid "The d-pawn is passed. [%csl Gd5] "
-msgstr "De d-pion wordt overgeslagen. [Gd5]"
+msgstr "De d-pion wordt overgeslagen. [%csl Gd5] "
 
 # 
 #. Positional motif tag description
@@ -12595,7 +12593,7 @@ msgstr ""
 # 
 #, javascript-format
 msgid "Both queens have penetrated the enemy position. [%csl Gb2,Gc7]"
-msgstr "Beide damen hebben de vijandelijke positie doordrongen. [Gb2, Gc7]"
+msgstr "Beide dames hebben de vijandelijke positie doordrongen. [%csl Gb2,Gc7]"
 
 # 
 #. Positional motif tag description
@@ -12673,7 +12671,7 @@ msgstr ""
 # 
 #. Positional motif tag description
 msgid "Sacrificing a piece for positional compensation"
-msgstr "Een stuk opofferen voor een positiescompensatie"
+msgstr "Een stuk opofferen voor positionele compensatie"
 
 # 
 msgid ""
@@ -12930,7 +12928,6 @@ msgstr ""
 #, fuzzy
 msgid "Black sacrifices the rook to force the king onto the unsafe g2 square."
 msgstr "Zwart offert de toren op om de koning naar het onveilige g2-veld te dwingen."
-"Zwart offert de toren om de koning naar het onveilige veld g2 te dwingen"
 
 # 
 #, fuzzy
@@ -13191,7 +13188,7 @@ msgid ""
 msgstr ""
 
 msgid "However white has a defensive interposition resource:"
-msgstr "Maar wit heeft echter een verdedigingsinterpositie-resource:"
+msgstr "Maar wit heeft echter een defensief interpositie idee:"
 
 msgid ""
 "Unfortunately for white the interposition is not effective as f4 makes en "
@@ -13265,7 +13262,7 @@ msgid ""
 msgstr ""
 
 msgid "White checks the king at the far end of the b file."
-msgstr "Wit schaakt de koning aan het verre uiteinde van het b-veld."
+msgstr "Wit zet de koning schaak aan het verre uiteinde van de b-lijn."
 
 msgid ""
 "White now moves backwards along the full length of b file to fork the "
@@ -13316,7 +13313,7 @@ msgid ""
 msgstr ""
 
 msgid "or swap the queen for a rook."
-msgstr "Wissel de dame voor een toren."
+msgstr "of ruil de dame voor een toren."
 
 # 
 #, fuzzy
@@ -14103,7 +14100,7 @@ msgid ""
 msgstr ""
 
 msgid "Checking the king"
-msgstr "De koning controleren"
+msgstr "De koning schaak zetten"
 
 msgid ""
 "forcing the rook that was defending the black queen to be lured away from "
@@ -14137,7 +14134,7 @@ msgid ""
 msgstr ""
 
 msgid "Leaving black up a rook."
-msgstr "Een toren van zwart naar boven verplaatsen."
+msgstr "En zwart heeft een toren meer."
 
 msgid ""
 "This is the third type of hook and ladder configuration, the opponent has "
@@ -14152,7 +14149,7 @@ msgid ""
 msgstr ""
 
 msgid "The take case, leading to white winning the queen for the rook."
-msgstr "De overnamepositie, leidend tot witte het damme voor de toren te winnen."
+msgstr "Er wordt geslagen, leidend tot wit die de dame voor een toren wint."
 
 # 
 #, fuzzy
@@ -14165,16 +14162,16 @@ msgid ""
 msgstr ""
 
 msgid "The rook swap option and white is now up queen for rook."
-msgstr "De torenruiloptie en wit heeft nu een dame in plaats van een toren."
+msgstr "De torenruiloptie en wit heeft nu een dame voor een toren."
 
 msgid "The queen retake option"
 msgstr "De dame terugslaan optie"
 
 msgid "and white is now up a full rook."
-msgstr "En wit heeft nu een volledige toren voordeel."
+msgstr "En wit staat nu een volle toren voor."
 
 msgid "With white up queen for rook."
-msgstr "Met wit, dame voor toren."
+msgstr "Met wit, dame voor toren voor."
 
 msgid ""
 "Threading the needle refers to a mating pattern which is similar to , but "
@@ -14252,16 +14249,15 @@ msgid ""
 msgstr ""
 
 msgid "Black needs to control the f2 square to complete a mating sequence."
-msgstr "Zwart moet het f2-veld controleren om een matvolgorde te voltooien."
+msgstr "Zwart moet het f2-veld controleren om een mat sequentie te voltooien."
 
 # 
 #, fuzzy
 msgid "Black sacrifices the rook in order to seize control of the f2 square."
 msgstr "Zwart offert de toren op om controle over het f2-veld te verkrijgen."
-"Zwart offert de toren om de koning naar het onveilige veld g2 te dwingen"
 
 msgid "Black checks the king again, but has not yet seized the f2 square."
-msgstr "Zwart controleert de koning opnieuw, maar heeft de f2-veld nog niet opgeeist."
+msgstr "Zwart zet de koning opnieuw schaak, maar heeft de f2-veld nog niet opgeeist."
 
 msgid ""
 "Black has now seized control of f2 with check, forcing the king to a square "
@@ -14308,7 +14304,7 @@ msgid ""
 msgstr ""
 
 msgid "Sacrificing the queen to setup the Edge Pin Mate."
-msgstr "De koningin offeren om de Edge Pin Mat te zetten."
+msgstr "De dame offeren om de Edge Pin Mat op te zetten."
 
 msgid ""
 "The mate works because the black rook is unable to move back to the back "
@@ -14380,7 +14376,7 @@ msgid ""
 msgstr ""
 
 msgid "After white promotes with"
-msgstr "Na de witte pion promoot met"
+msgstr "Nadat wit promoveert met"
 
 msgid ""
 "Black's queen launches a desperado attack, which allows Black to take the "
@@ -14398,7 +14394,7 @@ msgid ""
 msgstr ""
 
 msgid "simultaneously defending Black's bishop and queen."
-msgstr "Gelijktijdig verdedigen van de loper en dame van Zwart."
+msgstr "gelijktijdig verdedigen van de zwarte loper en dame."
 
 msgid ""
 "To be used only on purely defensive problems where the point of the problem "
@@ -14418,13 +14414,13 @@ msgid "Black is down a piece, and needs to find a way to escape."
 msgstr "Zwart heeft een stuk verloren en moet een manier vinden om te ontsnappen."
 
 msgid "Forunately, there is a forced perpetual available"
-msgstr "Gelukkig is er een gedwongen eeuwige beschikbaar."
+msgstr "Gelukkig is er een gedwongen eeuwig schaak beschikbaar."
 
 msgid "The white king has other options such as Kh2, but all end in perpetual"
-msgstr "De witte koning heeft andere opties zoals Kh2, maar alle eindigen in eeuwig."
+msgstr "De witte koning heeft andere opties zoals Kh2, maar alle eindigen in eeuwig schaak."
 
 msgid "and so on, drawing by perpetual."
-msgstr "en zo verder, tekenend door eeuwige."
+msgstr "en zo verder, remise door eeuwig schaak."
 
 msgid ""
 "A tactic where a piece guarding one of its own pieces (or important squares) "
@@ -14463,7 +14459,7 @@ msgid ""
 msgstr ""
 
 msgid "Lured away to block the check"
-msgstr "Aangetrokken om de schaak te blokkeren"
+msgstr "Weggelokt om de schaak te blokkeren"
 
 # 
 #, fuzzy
@@ -14499,7 +14495,7 @@ msgid ""
 msgstr ""
 
 msgid "The knight retakes but with only one protector this isn't enough"
-msgstr "De ridder heroveren, maar met slechts één beschermer is dit niet genoeg."
+msgstr "Het paard slaat terug, maar met slechts één verdediger is dit niet voldoende."
 
 msgid ""
 "and white now delivers mate on the previously guarded e8 square which the "
@@ -14526,7 +14522,7 @@ msgid ""
 msgstr ""
 
 msgid "The more passive queen promotion loses the initiative"
-msgstr "De meer passieve promotie van de dame verliest het initiatief"
+msgstr "De meer passieve promotie tot dame verliest het initiatief"
 
 msgid ""
 "and black with the initiative now starts a mating sequence of their own "
@@ -14590,7 +14586,7 @@ msgid ""
 msgstr ""
 
 msgid "Swapping the rook for the advanced pawn."
-msgstr "De toren voor de vooruitgekomen pion uitwisselen."
+msgstr "De toren ruilen voor de opgeschoven pion."
 
 msgid ""
 "White wins the rook, thanks to the promotion threat of the advanced pawn."
@@ -14769,7 +14765,7 @@ msgid ""
 msgstr ""
 
 msgid "The rook temporarily breaks the double threat with check."
-msgstr "De toren breekt tijdelijk de dubbele bedreiging met schaak."
+msgstr "De toren breekt tijdelijk de dubbele dreiging met schaak."
 
 msgid "However black now re-establishes the double threat using the king"
 msgstr "Maar zwart herstelt nu de dubbele dreiging met behulp van de koning."
@@ -14803,7 +14799,7 @@ msgid ""
 msgstr ""
 
 msgid "White elects to swap the rooks"
-msgstr "Wit kiest ervoor de torens uit te wisselen"
+msgstr "Wit kiest ervoor de torens te ruilen"
 
 # 
 #, fuzzy
@@ -14827,7 +14823,7 @@ msgid ""
 msgstr ""
 
 msgid "White must take the rook first to avoid going down a full rook"
-msgstr "Wit moet eerst de toren pakken om te voorkomen dat het een volledige toren verliest."
+msgstr "Wit moet eerst de toren pakken om te voorkomen dat hij een volle toren verliest."
 
 msgid ""
 "And now the point of the sequence, black has appended a fork attack to the "
@@ -14835,7 +14831,7 @@ msgid ""
 msgstr ""
 
 msgid "ending up a piece."
-msgstr ""Eindigen met een stuk.""
+msgstr "eindigen met een stuk meer."
 
 msgid ""
 "Reprotection occurs when a move simultaneously takes a piece, and in doing "
@@ -14859,7 +14855,7 @@ msgid ""
 msgstr ""
 
 msgid "now a crushing position for white."
-msgstr "nu een vernederende positie voor wit."
+msgstr "nu een overweldigende positie voor wit."
 
 #
 #. Consider renaming this to protecting attacker, which makes it more specific, as it
@@ -14931,7 +14927,7 @@ msgid ""
 msgstr ""
 
 msgid "Completing a successful greek gift sacrifice sequence."
-msgstr "Een succesvolle Griekse geschenkopofferingsserie voltooien."
+msgstr "Een succesvol Grieks offer voltooien."
 
 msgid "Another example of the greek sacrifice"
 msgstr "Een ander voorbeeld van het Griekse offer."
@@ -14940,7 +14936,7 @@ msgid "This time the king retreats onto the back rank, but it will not help"
 msgstr "Deze keer trekt de koning zich terug naar de achterste rij, maar het zal niet helpen."
 
 msgid "Threatening immediate mate with Qh7#"
-msgstr "Bedreiging met onmiddellijk mat via Qh7#"
+msgstr "Onmiddellijk mat via Qh7# dreigen"
 
 msgid ""
 "Giving up the queen to avoid mate, the only other options that don't get "
@@ -15145,13 +15141,13 @@ msgid ""
 msgstr ""
 
 msgid "The bishop check threatens mate"
-msgstr "De bisschop-schaak dreigt mat."
+msgstr "De loper schaak dreigt mat."
 
 msgid "Taking the bishop with the rook is the only legal move now"
-msgstr "Het veroveren van de bisschop met de toren is de enige legale zet nu."
+msgstr "Het veroveren van de loper met de toren is de enige legale zet nu."
 
 msgid "and black has swapped their bishop for the rook, winning the exchange."
-msgstr "En zwart heeft hun loper geruild voor de toren, waardoor ze de uitwisseling winnen."
+msgstr "En zwart heeft hun loper geruild voor de toren, waardoor ze de kwaliteit winnen."
 
 msgid ""
 "A move that controls the escape square(s) for an enemy piece, making it "
@@ -15189,7 +15185,7 @@ msgid ""
 msgstr ""
 
 msgid "Indefensibility"
-msgstr "Onweerlegbaar"
+msgstr "Onverdedigbaar"
 
 msgid ""
 "Describes a situation where the opponent is so unable to defend an attack "
@@ -15220,7 +15216,7 @@ msgid ""
 msgstr ""
 
 msgid "and finally the side file mate is executed."
-msgstr "en uiteindelijk wordt de partij op het juiste moment afgerond."
+msgstr "en uiteindelijk wordt de lijn mat uitgevoerd."
 
 msgid ""
 "Walking the plank describes the situation where two major pieces (rook or "
@@ -15236,7 +15232,7 @@ msgid ""
 msgstr ""
 
 msgid "One of only two squares the white king can move along."
-msgstr "Een van de slechts twee velden waar de witte koning zich kan verplaatsen langs."
+msgstr "Een van de slechts twee velden waar de witte koning zich langs kan verplaatsen."
 
 msgid "Restricting white's safe squares on the plank to one."
 msgstr "Het beperken van de veilige velden van wit op het bord tot één."
@@ -15321,7 +15317,7 @@ msgid ""
 msgstr ""
 
 msgid "Threatening 3.Rxf8 then 4.Qd8#."
-msgstr "Bedreiging 3. Rxf8 dan 4. Qd8#"
+msgstr "Dreigt 3.Rxf8 dan 4.Qd8#."
 
 msgid ""
 "However black now has an X-ray defense of the f8 square through the white "
@@ -15430,7 +15426,7 @@ msgid "After"
 msgstr "Na"
 
 msgid "White's h3 bishop takes black's d7 knight"
-msgstr "De witte h3-bischop slaat de zwarte d7-paard."
+msgstr "De witte h3-loper slaat het zwarte d7-paard."
 
 msgid "**clearing** the h3 square"
 msgstr "het veld h3 vrijmaken"
@@ -15445,7 +15441,7 @@ msgid ""
 msgstr ""
 
 msgid "allowing the capture of the bishop"
-msgstr "toestaan dat de bisschop wordt gevangen"
+msgstr "toestaan dat de loper wordt geslagen"
 
 msgid "and white wins a piece and the game."
 msgstr "en wit wint een stuk en de partij."
@@ -15533,7 +15529,7 @@ msgid ""
 msgstr ""
 
 msgid "Forcing the king to a position where it can be mated."
-msgstr "De koning dwingen naar een positie waar hij gemate kan worden."
+msgstr "De koning dwingen naar een positie waar hij mat gezet kan worden."
 
 msgid ""
 "Utilising the previously blocked, but now clear second rank to move to the "
@@ -15627,7 +15623,7 @@ msgid ""
 msgstr ""
 
 msgid "A cross-pin occurs when a piece is pinned from multiple directions."
-msgstr "Een kruispenning treedt op wanneer een stuk vanuit meerdere richtingen gepinneerd wordt."
+msgstr "Een kruispenning treedt op wanneer een stuk vanuit meerdere richtingen gespiesd wordt."
 
 msgid ""
 "Black now has the white Rook in a cross-pin, pinned against the white queen "
@@ -15638,7 +15634,7 @@ msgid "White opts to take the rook in compensation for the queen."
 msgstr "Wit kiest ervoor de toren te nemen als compensatie voor de dame."
 
 msgid "White has won the knight, however black appears to have a counter:"
-msgstr "Wit heeft de ridder gewonnen, echter lijkt zwart een tegenspel te hebben."
+msgstr "Wit heeft de paard gewonnen, echter lijkt zwart een tegenspel te hebben."
 
 msgid ""
 "Apparently pinning the white queen against her own king. White has another "
@@ -15662,7 +15658,7 @@ msgid ""
 msgstr ""
 
 msgid "Pawn sacrifices with check are a common form of pawn sacrifice"
-msgstr "Pionofferen met schaak zijn een veelvoorkomende vorm van pionofferen"
+msgstr "Pion offers met schaak zijn een veelvoorkomende vorm van pionofferen"
 
 msgid ""
 "Here the point is to distract the King from defense of the white rook, "
@@ -15773,7 +15769,6 @@ msgstr ""
 #, fuzzy
 msgid "White sacrifices the queen to attract the king to the h6 square"
 msgstr "Wit offert de dame om de koning naar het h6-veld te lokken."
-"Zwart offert de toren om de koning naar het onveilige veld g2 te dwingen"
 
 msgid "and white follows up with the classic Anastasia's mate."
 msgstr "en wit volgt met de klassieke Anastasia-mat."
@@ -15784,7 +15779,7 @@ msgid "King Chase Mate"
 msgstr "Koningsveiligheid"
 
 msgid "PENDING DEFINITION"
-msgstr "Onbepaalde definitie"
+msgstr "HANGENDE DEFINITIE"
 
 #
 #, fuzzy
@@ -15827,7 +15822,7 @@ msgid ""
 msgstr ""
 
 msgid "White moves out of check, and puts the black rook under attack again."
-msgstr "De witte speler verlaat de schaakpositie en zet de zwarte toren opnieuw onder druk."
+msgstr "Wit gaat uit de schaakpositie en valt de zwarte toren opnieuw aan."
 
 msgid ""
 "However black can now take the white rook with a move that performs a "
@@ -15920,7 +15915,7 @@ msgid "The knight now attacks both the queen and the king."
 msgstr "Het paard valt nu zowel de toren als de koning aan"
 
 msgid "Fork by Queen"
-msgstr "Tand door Dame"
+msgstr "Vork door Dame"
 
 # 
 #, fuzzy
@@ -15976,7 +15971,7 @@ msgid "and black wins the exchange."
 msgstr "en zwart bestraft de blunder"
 
 msgid "Fork by Rook"
-msgstr "Spies door Toren"
+msgstr "Vork door Toren"
 
 # 
 #, fuzzy
@@ -16033,7 +16028,7 @@ msgid "and the pawn takes the rook."
 msgstr "en de pion slaat de toren"
 
 msgid "Fork by King"
-msgstr "Dork door Koning"
+msgstr "Vork door Koning"
 
 msgid ""
 "The king attacks two pieces or important squares at once. The opponent is "
@@ -16060,7 +16055,7 @@ msgstr "en zwart bestraft de blunder"
 
 #. Positional motif tag name
 msgid "Alekhine's Gun"
-msgstr "Alekhines Geweer"
+msgstr "Alekhine's Geweer"
 
 #. Positional motif tag description
 msgid ""
@@ -16071,7 +16066,7 @@ msgstr ""
 
 #, javascript-format
 msgid "Doubled rooks on the c file [%csl Gc1,Gc2]"
-msgstr "Twee torens verdubbeld op het c-veld [Kc1, Kc2]"
+msgstr "Twee torens verdubbeld op het c-veld [%csl Gc1,Gc2]"
 
 #. Positional motif tag description
 msgid "A two-piece vertical battery, formed by two rooks."
@@ -16111,8 +16106,6 @@ msgstr "Systeem"
 #, fuzzy
 msgid "System is down for maintenance, please try again soon"
 msgstr "Het systeem is offline voor onderhoud, probeer het later opnieuw."
-"Chess Tempo is momenteel niet beschikbaar wegens werkzaamheden. Probeer het "
-"over enkele minuten opnieuw."
 
 #
 #, fuzzy
@@ -16138,7 +16131,7 @@ msgid "Tagging guidelines"
 msgstr "Handleiding voor labels"
 
 msgid "Tag already exists:{OLD_TAG_NAME}"
-msgstr "De tag bestaat al:{OUD_TAG_NAAM}"
+msgstr "De tag bestaat al:{OLD_TAG_NAME}"
 
 #
 #, fuzzy
@@ -16174,8 +16167,8 @@ msgstr "Wis labels"
 
 msgid "Confirm removal of tag: {TAG_LIST}"
 msgid_plural "Confirm removal of tags: {TAG_LIST}"
-msgstr "Bevestig verwijdering labels: {TAG_LIST}"
-msgstr[1] ""
+msgstr "Bevestig verwijdering label: {TAG_LIST}"
+msgstr[1] "Bevestig verwijdering labels: {TAG_LIST}"
 
 # 
 #, fuzzy
@@ -16281,7 +16274,7 @@ msgid "Vote down"
 msgstr "Totaal"
 
 msgid "No tags."
-msgstr "Geen labels om te vertalen."
+msgstr "Geen tags."
 
 #
 #. / Extra moves tag abbreviation string, should be as short as possible
@@ -16308,12 +16301,12 @@ msgid "Save post"
 msgstr "Opslaan als"
 
 msgid "Blog title"
-msgstr ""Blog titel""
+msgstr "Blog titel"
 
 msgid "Blog title image URL"
 
 msgid "Blog tag label"
-msgstr "Blogtaglabel"
+msgstr "Blog tag label"
 
 # 
 #, fuzzy
@@ -16321,14 +16314,14 @@ msgid "Blog summary"
 msgstr "Samenvatting"
 
 msgid "Blog body"
-msgstr "Blog lichaam"
+msgstr "Blog body"
 
 #. / used to output time like '3 years ago'
 msgid "ago"
 
 #. / Used to output dates like '3 years from now'
 msgid "from now"
-msgstr ""vanaf nu""
+msgstr "vanaf nu"
 
 #. / used to output time when it just happened, i.e. 'bob left just now'.
 msgid "just now"
@@ -16337,12 +16330,12 @@ msgstr "net nu"
 #
 #, fuzzy
 msgid "minute"
-msgstr "Minuut"
+msgstr "minuut"
 
 #
 #, fuzzy
 msgid "minutes"
-msgstr "Minuut"
+msgstr "minuut"
 
 #, fuzzy
 msgid "{COUNT} minute ago"
@@ -16366,7 +16359,7 @@ msgstr[1] "{TOTAL_HOURS} Uur"
 
 msgid "{COUNT} hour from now"
 msgid_plural "{COUNT} hours from now"
-msgstr "Over {AANTAL} uur vanaf nu"
+msgstr "Over {COUNT} uur vanaf nu"
 msgstr[1] ""
 
 #. 24 hours, 1 hour
@@ -16391,8 +16384,8 @@ msgstr[1] "{COUNT} Points"
 
 msgid "{COUNT} week from now"
 msgid_plural "{COUNT} weeks from now"
-msgstr "{ "COUNT" : "Over {aantal} weken" }"
-msgstr[1] ""
+msgstr "{COUNT} week vanaf nu"
+msgstr[1] "{COUNT} weken vanaf nu"
 
 #. ~1 month, 1 week
 #, fuzzy
@@ -16416,8 +16409,8 @@ msgstr[1] "{COUNT} Points"
 
 msgid "{COUNT} year from now"
 msgid_plural "{COUNT} years from now"
-msgstr "Over {AANTAL} jaar in de toekomst"
-msgstr[1] ""
+msgstr "Over {COUNT} jaar vanaf nu"
+msgstr[1] "Over {COUNT} jaren vanaf nu"
 
 #
 #, fuzzy
@@ -16609,15 +16602,13 @@ msgid "Tomorrow"
 msgstr "Morgen"
 
 msgid "Tomorrow at {TIME}"
-msgstr "Morgen om {TIJD}"
+msgstr "Morgen om {TIME}"
 
 msgid "{DAY_OF_WEEK}"
-msgstr "{
-    "DAY_OF_WEEK": "Dag van de week"
-}"
+msgstr "{DAY_OF_WEEK}"
 
 msgid "{DAY_OF_WEEK} at {TIME}"
-msgstr "De vertaling van "{DAY_OF_WEEK} bij {TIME}" naar het Nederlands is: "{Dag van de week} om {Tijd}"."
+msgstr "{DAY_OF_WEEK} om {TIME}"
 
 msgid "{MONTH} {DAY_OF_MONTH}"
 
@@ -16641,16 +16632,17 @@ msgstr "m"
 
 #
 msgid "h"
-msgstr "h"
+msgstr "u"
 
 #
 msgid "d"
 msgstr "d"
 
 msgid "w"
+msgstr "w"
 
 msgid "y"
-msgstr ""KRBNKRB" wordt vertaald naar "KTLPKTL"."
+msgstr "j"
 
 #
 #. short seconds output
@@ -16685,7 +16677,7 @@ msgstr[0] "{COUNT} Punten"
 msgstr[1] "{COUNT} Points"
 
 msgid "{WEEKS}w"
-msgstr "{WEEKS} Weken"
+msgstr "{WEEKS}w"
 
 #, fuzzy
 msgid "{COUNT} week"
@@ -16781,7 +16773,7 @@ msgid "Ok ({TIME_CONTROL})"
 msgstr "OK ({TIME_CONTROL})"
 
 msgid "Challenge error: {ERROR_MESG}"
-msgstr "Uitdaging fout: {FOUT_BERICHT}"
+msgstr "Uitdaging fout: {ERROR_MESG}"
 
 #
 #, fuzzy
@@ -16814,7 +16806,7 @@ msgid "1m"
 msgstr "1m"
 
 msgid "2min"
-msgstr "2 minuten"
+msgstr "2min"
 
 #
 msgid "2m+1s"
@@ -17036,7 +17028,7 @@ msgid "R"
 msgstr "T"
 
 msgid "Opp."
-msgstr "Tegenstander"
+msgstr "Opp."
 
 #
 msgid "Opponent"
@@ -17075,7 +17067,7 @@ msgid "Unblock user"
 msgstr "Deblokkeer gebruiker"
 
 msgid "Add selected move to repertoire"
-msgstr "Bewegsel toe voegen aan repertoire"
+msgstr "Zet toe voegen aan repertoire"
 
 #
 #, fuzzy
@@ -17092,7 +17084,7 @@ msgid ""
 msgstr ""
 
 msgid "You played {MOVE_PLAYED}, repertoire recommended {REPERTOIRE_MOVE}."
-msgstr "Je hebt gespeeld {MOVE_PLAYED}, repertoire aanbevolen {REPERTOIRE_MOVE}."
+msgstr "Je hebt {MOVE_PLAYED} gespeeld, repertoire aanbevolen {REPERTOIRE_MOVE}."
 
 msgid ""
 "You don't have a repertoire entry for the position where you played "

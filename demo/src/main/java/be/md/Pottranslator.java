@@ -115,6 +115,8 @@ public class Pottranslator {
         map.put("Streak", "Streak");
         map.put("Moves", "Zetten");
         map.put("Move", "Zet");
+        map.put("capture", "nemen");
+        map.put("exchange", "kwaliteit");
 
         try {
             var mapString = new ObjectMapper().writeValueAsString(map);

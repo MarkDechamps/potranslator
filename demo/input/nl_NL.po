@@ -17348,8 +17348,6 @@ msgstr ""
 #
 msgid "During the game, the resign button can be found under the actions menu."
 msgstr "Tijdens de partij kan je opgeven door op het menu 'acties' te klikken."
-"Gedurende het spel kan je de knop om op te geven terugvinden onder het "
-"Acties menu."
 
 #
 #. Abandoned game dialog resign button label
@@ -17649,8 +17647,6 @@ msgstr "Vakantie Tijd Over:"
 #
 msgid "Server now shutdown, waiting to reconnect."
 msgstr "De server is nu uitgeschakeld, wacht op herverbinding."
-"Server is momenteel niet bereikbaar, gelieve te wachten tot deze opnieuw "
-"connecteert"
 
 #
 msgid "Server scheduled for restart in"
@@ -17687,7 +17683,7 @@ msgstr "{USERNAME} is nu niet ingelogd"
 #
 msgid "Users must be logged in to receive direct non-correspondence seeks"
 msgstr "Gebruikers moeten ingelogd zijn om directe niet-corresponerende verzoeken te ontvangen"
-"Gebruikers moeten zijn ingelogd om directe non-correspondentie zoeken te zien"
+
 
 #
 msgid "You can't challenge yourself to a game."
@@ -17737,15 +17733,15 @@ msgstr ""
 
 #
 msgid "Your rating is too high to play this bot in a rated game."
-msgstr "Je beoordeling is te hoog om dit bot in een gekwalificeerde partij te spelen."
-"Uw rating is te hoog om tegen deze computer te spelen in een spel met rating."
+msgstr "Uw rating is te hoog om tegen deze computer te spelen in een spel met rating."
+
 
 #
 msgid "Games from user selected start positions must be unrated."
 msgstr "Spelen vanaf door de gebruiker geselecteerde beginposities moeten onbeoordeeld zijn."
 
 msgid "You already have a seek like that."
-msgstr "Je hebt al een zoekactie zoals die."
+msgstr "Je hebt al een zoek opdracht zoals die."
 
 #
 #. error shown when trying to accept a seek that was already cancelled by
@@ -17762,7 +17758,7 @@ msgid "Seek Accept Error"
 msgstr "Kan dit niet zoeken"
 
 msgid "Guest players can't play rated, long or correspondence games"
-msgstr "Gastspelers mogen geen rangschikkings-, langdurige of correspondentiespellen spelen."
+msgstr "Gastspelers kunnen niet rated, lange of correspondentiepartijen spelen."
 
 #
 msgid ""
@@ -17788,7 +17784,7 @@ msgstr ""
 #, fuzzy
 msgid "Users must be logged in to receive direct non-correspondence seeks."
 msgstr "Gebruikers moeten ingelogd zijn om directe niet-corresponderende verzoeken te ontvangen."
-"Gebruikers moeten zijn ingelogd om directe non-correspondentie zoeken te zien"
+
 
 #
 msgid "Problem with your seek: {SEEK_PROBLEM}"
@@ -17805,7 +17801,7 @@ msgid "unknown"
 msgstr "Ongekend"
 
 msgid "{USERNAME} declined seek, because: {REASON}."
-msgstr "De gebruiker heeft het verzoek afgewezen, omdat: {REASON}."
+msgstr "{USERNAME} heeft het verzoek afgewezen, omdat: {REASON}."
 
 #
 #, fuzzy
@@ -17816,8 +17812,6 @@ msgstr "Jouw uitdaging werd geweigerd door {USERNAME}."
 #, fuzzy
 msgid "Problem creating your seek, check seek parameters."
 msgstr "Het maken van uw zoekopdracht is niet mogelijk, controleer de zoekparameters."
-"Er was een probleem in het aanmaken van je uitdaging, gelieve de parameters "
-"te controleren."
 
 #
 #, fuzzy
@@ -18061,15 +18055,13 @@ msgstr[1] ""
 msgid "Total: {TOTAL_FOUND}"
 msgid_plural "Total: {TOTAL_FOUND}"
 msgstr "Totaal: {TOTAL_FOUND}"
-msgstr[1] ""
+msgstr[1] "Totaal: {TOTAL_FOUND}"
 
 # 
 #, fuzzy
 msgid ""
 "Upgrade to gold or diamond membership to train against your missed tactics."
-msgstr ""
-"<a href=\"/memberships.html\">Upgrade naar een Gouden Lidmaatschap</a> om "
-"uitgebreide prestatiestatistieken te zien."
+msgstr "Upgrade naar goud om je gemiste taktieken te trainen."
 
 # 
 #, fuzzy
@@ -18185,10 +18177,8 @@ msgstr "Doelwaarde moet een positief geheel getal zijn"
 msgid "Period value must be a positive number"
 msgstr "De periodewaarde moet een positief getal zijn."
 
-#
-#, fuzzy
 msgid "Training Type"
-msgstr "Schaaktraining"
+msgstr "Training type"
 
 #
 #, fuzzy
@@ -18346,26 +18336,17 @@ msgstr "Tactisch thema"
 msgid "Unable to connect to Chesstempo server"
 msgstr "Er zijn problemen met het connecteren naar de server"
 
-#
-#, fuzzy
 msgid "Please check your network connection and click reload try again."
 msgstr "Controleer uw netwerkverbinding en klik op vernieuwen om opnieuw te proberen."
-"Er is een probleem met het versturen van je zet. We blijven proberen, "
-"gelieve je netwerk connectie te controleren en overweeg om de pagina te "
-"herladen."
 
-#, fuzzy
 msgid "Diamond monthly"
-msgstr "Diamant"
+msgstr "Diamant maandelijks"
 
-#, fuzzy
 msgid "Gold monthly"
-msgstr "Maand"
+msgstr "Goud maandelijks"
 
-#
-#, fuzzy
 msgid "Silver monthly"
-msgstr "Zilver"
+msgstr "Zilver maandelijks"
 
 msgid "Unable to initialise play store on this device."
 msgstr "Onmogelijk om de Google Play Store op dit apparaat te initialiseren."
@@ -18457,7 +18438,7 @@ msgid "Chess Tempo"
 msgstr "Chess Tempo"
 
 msgid "Switch themes"
-msgstr "Schakemotieven wisselen"
+msgstr "Themas wijzigen"
 
 msgid "Language selector menu"
 msgstr "Menu voor taalkeuze"
@@ -18588,13 +18569,13 @@ msgid ""
 msgstr ""
 
 msgid "{FREE_ENDGAMES_PER_DAY} endgame problems per day."
-msgstr "{ "FREE_ENDGAMES_PER_DAY": "GRATIS_EINDSPELEN_PER_DAAG" }"
+msgstr "{FREE_ENDGAMES_PER_DAY} eindspel problemen per day."
 
 msgid "Create opening repertoires with up to {FREE_OPENING_QUOTA} positions."
 msgstr "Creëer openingsrepertoirs met maximaal {FREE_OPENING_QUOTA} posities."
 
 msgid "{FREE_NUMBER_OF_GUESS_THE_MOVE_GAMES} guess the move games."
-msgstr "{ "FREE_NUMBER_OF_GUESS_THE_MOVE_GAMES" : "GRATIS AANTAL RAAD DE MOEVEN SPELLEN" }"
+msgstr "{FREE_NUMBER_OF_GUESS_THE_MOVE_GAMES} guess the move partijen."
 
 msgid ""
 "Guess the move allows you to play the side of a strong master in a selection "
@@ -18604,7 +18585,7 @@ msgid ""
 msgstr ""
 
 msgid "{FREE_ATTEMPT_HISTORY_SIZE} problem history size."
-msgstr "{ "FREE_ATTEMPT_HISTORY_SIZE": "Vrij pogingsgeschiedenis grootte" }"
+msgstr "{FREE_ATTEMPT_HISTORY_SIZE} probleem history grootte."
 
 msgid ""
 "Problem history size is the number of problems you can see in the list of "
@@ -18612,7 +18593,7 @@ msgid ""
 msgstr ""
 
 msgid "Opening explorer {FREE_OPENING_EXPLORER_MOVES} moves deep."
-msgstr "Ontdekkingsreiziger {GRATIS_ONTDEKKING_REIZIGER_BEWEGINGEN} diep vooruit."
+msgstr "Opening verkenner {FREE_OPENING_EXPLORER_MOVES} zetten diep."
 
 msgid ""
 "The opening explorer allows you to see win/draw/loss stats for different "
@@ -18625,12 +18606,10 @@ msgid ""
 msgstr ""
 
 msgid "Play unlimited online games."
-msgstr "Speel oneindige online partijen."
+msgstr "Speel onbeperkt online partijen."
 
-#
-#, fuzzy
 msgid "Game database."
-msgstr "Spel databank"
+msgstr "Partijen databank"
 
 msgid "All free features, plus the following"
 msgstr "Alle gratis functies, plus de volgende"
@@ -18657,7 +18636,7 @@ msgid "Web only"
 msgstr "Web alleen"
 
 msgid "{SILVER_ATTEMPT_HISTORY_SIZE} problem history size."
-msgstr "Het aantal historische pogingen voor zilver: {SILVER_ATTEMPT_HISTORY_SIZE}"
+msgstr "{SILVER_ATTEMPT_HISTORY_SIZE} probleem history grootte."
 
 # 
 #, fuzzy
@@ -18760,7 +18739,7 @@ msgid ""
 msgstr ""
 
 msgid "Engine evaluation for the top moves in each problem position."
-msgstr "Evaluatie van de motor voor de beste zetten in elke probleempositie."
+msgstr "Evaluatie van de engine voor de beste zetten in elke probleemstelling."
 
 msgid ""
 "See the engine evaluation score for the top 5 engine moves in each position "
@@ -18797,7 +18776,7 @@ msgid "Most popular"
 msgstr "Meest populair"
 
 msgid "All silver features, plus the following"
-msgstr "Alle zilverkenmerken, plus de volgende"
+msgstr "Alle zilver features, plus de volgende"
 
 msgid "Analyse up to 2 positions at once with our cloud engines."
 msgstr "Analyseer tegelijkertijd 2 posities met onze cloudmotoren."
@@ -18819,7 +18798,7 @@ msgid "{GOLD_NUMBER_OF_GUESS_THE_MOVE_GAMES} guess the move games."
 msgstr "Aantal goud van gissingen het zetspelletjes."
 
 msgid "{GOLD_ATTEMPT_HISTORY_SIZE} problem history size."
-msgstr "{ "GOLD_ATTEMPT_HISTORY_SIZE" : "Goudproefgeschiedenisgrootte" }"
+msgstr "{GOLD_ATTEMPT_HISTORY_SIZE} probleem history grootte."
 
 msgid "Bulk download {GOLD_BULK_PGN_DOWNLOAD} PGN games."
 msgstr "Massale download {GOLD_BULK_PGN_DOWNLOAD} PGN-partijen."
@@ -18964,7 +18943,7 @@ msgid ""
 msgstr ""
 
 msgid "Game database material balance search."
-msgstr "Zoekopdracht in de schaakspel database voor materiaalbalans."
+msgstr "Zoekopdracht in de partij database voor materiaalbalans."
 
 msgid ""
 "Material search allows you to search for games that had a particular "
@@ -18981,8 +18960,6 @@ msgstr ""
 #, fuzzy
 msgid "Source game details for tactics and endgame problems."
 msgstr "Bron spelgegevens voor tactische en eindspelproblemen."
-"Zie de details van de bronpartij van een tactiek- of eindspelopgave en "
-"bekijk de gehele bronpartij in de databank."
 
 msgid ""
 "See the details for the source game for each problem, and have a link to see "
@@ -18993,7 +18970,7 @@ msgid "All gold features, plus the following"
 msgstr "Alle gouden functies, plus de volgende"
 
 msgid "Access up to 8 engine threads for a total of 96 hours/day."
-msgstr "Toegankelijkheid van maximaal 8 motoren voor een totaal van 96 uur per dag."
+msgstr "Toegankelijkheid van maximaal 8 engines voor een totaal van 96 uur per dag."
 
 msgid ""
 "8 engine threads can be used to analyse up to 8 positions at the same time, "
@@ -19223,7 +19200,7 @@ msgstr ""
 
 #
 msgid "Data retention"
-msgstr "Gegevensbehoud"
+msgstr "Data behouden"
 
 #
 msgid ""
@@ -19687,7 +19664,7 @@ msgid "{REGISTER_BUTTON} for free to access endgame training."
 msgstr "{REGistreer_knop} voor gratis toegang tot eindspeltraining."
 
 msgid "{REGISTER_BUTTON} for free to access guess the move training."
-msgstr "{REGISTER_BUTTON} voor gratis toegang tot de training 'raak de zet' te ontdekken."
+msgstr "{REGISTER_BUTTON} gratis om guess the move training te gebruiken."
 
 #. ** Expiry date format
 msgid "MM/YY"
@@ -19700,7 +19677,7 @@ msgid "The card number is not a valid credit card number."
 msgstr "De kaartnummer is geen geldig creditcardnummer."
 
 msgid "The card's expiration month is invalid."
-msgstr "De vervaldatum van de kaart is ongeldig."
+msgstr "De verval maand van de kaart is ongeldig."
 
 #
 #, fuzzy
@@ -19714,7 +19691,7 @@ msgid "The card's swipe data is invalid."
 msgstr "De kaartgegevens zijn ongeldig."
 
 msgid "The card number is incorrect."
-msgstr "De kaartnummer is onjuist."
+msgstr "Het kaartnummer is onjuist."
 
 # 
 #, fuzzy
@@ -19731,7 +19708,7 @@ msgid "The card was declined."
 msgstr "De kaart is afgewezen."
 
 msgid "There is no card on a customer that is being charged."
-msgstr "Er is geen kaart op een klant die wordt belast."
+msgstr "Er is geen kaart van een klant die wordt belast."
 
 #
 #, fuzzy
@@ -19744,7 +19721,7 @@ msgid "Your card number is invalid."
 msgstr "Start tijd is niet geldig."
 
 msgid "Your card's expiration year is in the past."
-msgstr "Het vervaldatum van uw kaart ligt in het verleden."
+msgstr "De vervaldatum van uw kaart ligt in het verleden."
 
 msgid "Your postal code is incomplete."
 msgstr "Je postcode is onvolledig."
@@ -19758,15 +19735,14 @@ msgstr "De vervaldatum van uw kaart is onvolledig."
 msgid "Your card number is incomplete."
 msgstr "Je kaartnummer is onvolledig."
 
-#. console.error("groupSaving:",groupSaving," price:",price, "unit price:",Membership.MEMBER_PRICES[this._period][this._memberLevel]*this._exchangeRate);
 msgid "Save {GROUP_SAVING}"
-msgstr "Bewaar {GROEP_BEWAREN}"
+msgstr "Bewaar {GROUP_SAVING}"
 
 msgid "Can't send a gift to that username."
 msgstr "Kan geen cadeau sturen naar die gebruikersnaam."
 
 msgid "Gift recipient username already has a premium membership."
-msgstr "De gebruikersnaam van de ontvanger heeft al een premiumlidmaatschap."
+msgstr "De geschenk ontvanger heeft al een premiumlidmaatschap."
 
 msgid "Gift recipient username does not exist."
 msgstr "Gebruikersnaam van de ontvanger bestaat niet."
@@ -19780,7 +19756,7 @@ msgid "Problem connecting to credit card processor. Please try later."
 msgstr "Er zijn problemen met het connecteren naar de server"
 
 msgid "Upgrades cannot change payment periods."
-msgstr "Verbeteringen kunnen de betalingsperiodes niet wijzigen."
+msgstr "Upgrades kunnen de betalingsperiodes niet wijzigen."
 
 msgid "Group memberships are for yearly periods only."
 msgstr "Groepslidmaatschappen gelden alleen voor jaarlijkse periodes."
@@ -19798,14 +19774,12 @@ msgid "Upgrades can only be one-time payments."
 msgstr "Upgrades kunnen alleen eenmalig betaald worden."
 
 msgid "Period extensions can only be one-time payments."
-msgstr "Periodeverlengingen kunnen alleen eenmalig betaald worden."
+msgstr "Periodeverlengingen kunnen alleen eenmalige betalingen zijn."
 
 #
 #, fuzzy
 msgid "Group memberships are only available for gold membership."
 msgstr "Groepslidmaatschappen zijn alleen beschikbaar voor gouden lidmaatschappen."
-"Annotatie door schaakcomputer is alleen beschikbaar voor het gouden "
-"lidmaatschap"
 
 msgid "Gift card preview"
 msgstr "Geschenkkaartvoorbeschouwing"
@@ -19868,14 +19842,14 @@ msgid "Go to your user settings."
 msgstr "Verkenner Statistiek"
 
 msgid "Click on the account tab."
-msgstr "Klik op het accounttabblad."
+msgstr "Klik op de accounttabblad."
 
 msgid ""
 "Choose one or more non-premium member usernames to assign the memberships to."
 msgstr ""
 
 msgid "Credits do not expire, so you can assign memberships at any time."
-msgstr "Deze kredieten vervallen niet, dus je kunt lidmaatschappen op elk moment toewijzen."
+msgstr "Kredieten vervallen niet, dus je kunt lidmaatschappen op elk moment toewijzen."
 
 #
 #. ** One time membership level
@@ -19949,7 +19923,7 @@ msgid ""
 msgstr ""
 
 msgid "IM Tom O'Donnell, Canada"
-msgstr "Ik ben Tom O'Donnell, Canada"
+msgstr "IM Tom O'Donnell, Canada"
 
 msgid ""
 "Our chess school provides ChessTempo Gold memberships to all students. Our "
@@ -19971,7 +19945,7 @@ msgid ""
 msgstr ""
 
 msgid "upandcomer"
-msgstr "Opkomende ster"
+msgstr "upandcomer"
 
 msgid ""
 "Chess Tempo has a lot of very useful features and it is hard to say what of "
@@ -20007,7 +19981,7 @@ msgid "Gift code is not valid, please check the entered code."
 msgstr "Geschenkcode is ongeldig, controleer alstublieft de ingevoerde code."
 
 msgid "You already have an active membership."
-msgstr "Je hebt al een actieve lidmaatschap."
+msgstr "Je hebt al een actief lidmaatschap."
 
 msgid "Wait for your membership to expire before using the gift code."
 msgstr "Wacht tot je lidmaatschap verloopt voordat je de cadeaucode gebruikt."
@@ -20024,7 +19998,7 @@ msgid "Enter gift code here"
 msgstr "Geef hier je commentaar"
 
 msgid "Redeem gift"
-msgstr "Verzorg geschenk"
+msgstr "Aanvaard het geschenk"
 
 #
 #, fuzzy
@@ -20112,7 +20086,7 @@ msgstr "Start"
 msgid "Image too large"
 
 msgid "File not an image"
-msgstr "Bestand geen afbeelding"
+msgstr "Bestand is geen afbeelding"
 
 msgid "Insert image"
 
@@ -20178,7 +20152,7 @@ msgid "Insert move list"
 msgstr "Vormgeving zettenlijst"
 
 msgid "Insert board diagram"
-msgstr "Voer borddiagram in"
+msgstr "Voer bord diagram in"
 
 #
 #, fuzzy
@@ -20202,7 +20176,7 @@ msgid "Chapter"
 msgstr "Hoofdstuk"
 
 msgid "Chapter Title"
-msgstr ""Hoofdstuk Titel""
+msgstr "Hoofdstuk Titel"
 
 msgid "Submit book for publication"
 msgstr "Boek indienen voor publicatie"
@@ -20272,7 +20246,7 @@ msgid "Show in viewer"
 msgstr "Stop afspelen zettenreeks"
 
 msgid "Invite user to collaborate"
-msgstr "Uitnodigen om samen te werken"
+msgstr "Gebruiker uitnodigen om samen te werken"
 
 #. icon: { text:"\u2b1a", css:'font-weight: bold'},
 msgid "Invite"
@@ -20303,7 +20277,7 @@ msgid "Update book stats"
 msgstr "Bijwerken boekstatistieken"
 
 msgid "Analyse all problems with engine"
-msgstr "Analyseer alle problemen met de motor"
+msgstr "Analyseer alle problemen met de engine"
 
 #
 #. icon: { text:"\u2b1a", css:'font-weight: bold'},
@@ -20322,7 +20296,7 @@ msgid "Auto - Player on bottom"
 msgstr "Speler onderaan"
 
 msgid "Auto - Opponent on bottom"
-msgstr "Auto - Tegenstander onderin"
+msgstr "Auto - Tegenstander onderaan"
 
 #
 #, fuzzy
@@ -20408,7 +20382,7 @@ msgid "Start drilling opening moves"
 msgstr "Tactiektraining"
 
 msgid "Drill"
-msgstr "Boor"
+msgstr "Drillen"
 
 #
 #, fuzzy
@@ -20547,7 +20521,7 @@ msgid "Book usage help"
 msgstr "Hulp bij het gebruik van boeken"
 
 msgid "Jump"
-msgstr "Sprong"
+msgstr "Spring"
 
 #
 #, fuzzy
@@ -20565,10 +20539,10 @@ msgid "No GTM move list PGN"
 msgstr "Vormgeving zettenlijst"
 
 msgid "No CT Game id for GTM game"
-msgstr "Geen CT-spel-id voor GTM-spel"
+msgstr "Geen CT-spel-id voor GTM-partij"
 
 msgid "No identifier for game, try reloading"
-msgstr "Geen identificatie voor partij, probeer het opnieuw te laden"
+msgstr "Geen identificatie voor partij, probeer opnieuw laden"
 
 #, fuzzy
 msgid "Convenient Reading"
@@ -20608,7 +20582,7 @@ msgid "Chess Books"
 msgstr "Schaakopgaven"
 
 msgid "Interactive book training."
-msgstr "Interactief boekentraining."
+msgstr "Interactieve boeken training."
 
 msgid "Buy chess books"
 msgstr "Koop schaakboeken"
@@ -20624,15 +20598,13 @@ msgid "Create book"
 msgstr "Maak"
 
 msgid "Latest Books"
-msgstr "Laatste Boeken"
+msgstr "Nieuwste Boeken"
 
 msgid "See all books"
 msgstr "Zie alle boeken"
 
-#
-#, fuzzy
 msgid "Your Books"
-msgstr "Slechtste zet"
+msgstr "Jouw boeken"
 
 # 
 #, fuzzy
@@ -20710,10 +20682,8 @@ msgstr "Schaakopgaven"
 msgid "Words in book text"
 msgstr "Woorden in boektekst"
 
-# 
-#, fuzzy
 msgid "Number of illustrative games"
-msgstr "Aantal sterratings:"
+msgstr "Aantal illustratieve partijen"
 
 #
 #, fuzzy
@@ -20757,7 +20727,7 @@ msgid "Checking {UPTO}/{TOTAL}"
 msgstr "Controleren {UPTO}/{TOTAAL}"
 
 msgid "Adding to queue {UPTO}/{TOTAL}"
-msgstr "Aan de wachtrij toevoegen {AANTAL_TOTALE}"
+msgstr "Aan de wachtrij toevoegen {UPTO}/{TOTAL}"
 
 msgid ""
 "We are waiting for the payment to be verified. This should only take a "
@@ -20789,7 +20759,7 @@ msgid "Too many annoying alts {PROBLEM_MOVE} number:{NUM_ANNOYING_ALTS}"
 msgstr "Te veel irritante alternatieven {PROBLEEM_MOVE} aantal:{AANTAL_IRRITANTE_ALTERNATIEFEN}"
 
 msgid "Solution move {PROBLEM_MOVE} is equal best ({ANALYSIS_MOVE})"
-msgstr "Oplossende zet {PROBLEM_MOVE} is gelijk aan de beste zet ({ANALYSIS_MOVE})"
+msgstr "Oplossing zet {PROBLEM_MOVE} is gelijk aan de beste zet ({ANALYSIS_MOVE})"
 
 msgid ""
 "Solution move {PROBLEM_MOVE} getting mated and analysis move "
@@ -20797,7 +20767,7 @@ msgid ""
 msgstr ""
 
 msgid "Solution move {PROBLEM_MOVE} losing and best mating ({ANALYSIS_MOVE})"
-msgstr "Oplossingszet {PROBLEMMOVE} verlies en beste mat ({ANALYSISMOVE})"
+msgstr "Oplossingszet {PROBLEM_MOVE} verlies en beste mat ({ANALYSIS_MOVE})"
 
 msgid ""
 "Solution move {PROBLEM_MOVE} up less than piece, best move mating "

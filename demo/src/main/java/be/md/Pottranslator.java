@@ -115,6 +115,7 @@ public class Pottranslator {
         map.put("Streak", "Streak");
         map.put("Moves", "Zetten");
         map.put("Move", "Zet");
+        map.put("engine", "engine");
         map.put("capture", "nemen");
         map.put("exchange", "kwaliteit");
 

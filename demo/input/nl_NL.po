@@ -20800,7 +20800,7 @@ msgid ""
 msgstr ""
 
 msgid "Solution move {PROBLEM_MOVE} is losing, best move ({ANALYSIS_MOVE})"
-msgstr "Oplossingszet {PROBLEM_MOVE} is verlies, beste zet ({ANALYSIS_MOVE})"
+msgstr "Oplossingszet {PROBLEM_MOVE} is verliezend, beste zet ({ANALYSIS_MOVE})"
 
 msgid ""
 "Solution move {PROBLEM_MOVE} is losing, so is best, but by less "
@@ -20813,7 +20813,7 @@ msgid ""
 msgstr ""
 
 msgid "VAR LEVEL:{VARIATION_LEVEL}"
-msgstr "VAR LEVEL: {VARIATIE_NIVAU}"
+msgstr "VAR LEVEL: {VARIATION_LEVEL}"
 
 #
 #, fuzzy
@@ -20821,7 +20821,7 @@ msgid "Problem id"
 msgstr "Opgave #"
 
 msgid "Book Prob id"
-msgstr "Boek Prob-id"
+msgstr "Boek Prob id"
 
 #
 #, fuzzy
@@ -20841,7 +20841,7 @@ msgid "Refund book for this user"
 msgstr "Terugbetaling boek voor deze gebruiker"
 
 msgid "Remove reading rights for this book for this user without refund"
-msgstr "Rechten om dit boek te lezen voor deze gebruiker intrekken zonder restitutie"
+msgstr "Rechten intrekken zonder restitutie om dit boek te lezen voor deze gebruiker"
 
 msgid "Read"
 msgstr "Lees"
@@ -20877,15 +20877,15 @@ msgid "Delete book"
 msgstr "Wis"
 
 msgid "All books owned"
-msgstr "Alle boeken die in bezit zijn"
+msgstr "Alle boeken in bezit"
 
 msgid "Reduced from {FULL_PRICE} due to already owning: {OWNED_BOOKS}"
-msgstr "Verlagd van {FULL_PRICE} vanwege al beschikbare boeken: {OWNED_BOOKS}"
+msgstr "Verlaagd van {FULL_PRICE} vanwege reeds bezitten: {OWNED_BOOKS}"
 
 # 
 #, fuzzy
 msgid "Duplicate"
-msgstr "Dubbele"
+msgstr "Duplicaten"
 
 #
 #, fuzzy
@@ -20944,7 +20944,7 @@ msgid "Title"
 msgstr "Titel"
 
 msgid "Author(s)"
-msgstr "Auteur(en)"
+msgstr "Auteur(s)"
 
 # 
 msgid "Summary"
@@ -20972,7 +20972,7 @@ msgid "Both"
 msgstr "Beide"
 
 msgid "Problems start with opponent move first"
-msgstr "Problemen beginnen met de zet van de tegenstander eerst"
+msgstr "Problemen beginnen met tegenstander die eerst zet"
 
 msgid ""
 "Treat non-problem games (such as those in game collections) as Guess The "
@@ -20980,10 +20980,10 @@ msgid ""
 msgstr ""
 
 msgid "Only allow browsing (no training)"
-msgstr "Alleen toegestaan browsen (geen training)"
+msgstr "Alleen browsen toestaan (geen training)"
 
 msgid "Use automatic book move list layout"
-msgstr "Gebruik automatisch boekbeweegindeling"
+msgstr "Gebruik automatisch boek zetten lijst indeling"
 
 msgid ""
 "Add problem titles to uniqueness check (allows use of multiple problems with "
@@ -20994,7 +20994,7 @@ msgid "Warning: Reimporting PGN will replace all existing book content"
 msgstr "Waarschuwing: Het opnieuw importeren van PGN-bestanden zal alle bestaande boekinhoud vervangen."
 
 msgid "Warning: About to replace all book content"
-msgstr "Waarschuwing: Overgaat naar het vervangen van al het boekinhoud"
+msgstr "Waarschuwing: Alle boekinhoud zal vervangen worden"
 
 msgid "Provide book title first"
 
@@ -21009,7 +21009,7 @@ msgid "Created book"
 msgstr "Gemaakt"
 
 msgid "Re-imported book"
-msgstr "Heringevoerde boek"
+msgstr "Her-geimporteerd boek"
 
 # 
 #, fuzzy
@@ -21062,7 +21062,7 @@ msgid "Play game using guess the move"
 msgstr "Speel de beste zet"
 
 msgid "Drill this variation in the opening trainer"
-msgstr "Oefen deze variantie in de openingstrainer."
+msgstr "Oefen deze variant in de openingstrainer."
 
 # 
 #, fuzzy
@@ -21140,7 +21140,7 @@ msgid "Import PGN"
 msgstr "Importeer FEN"
 
 msgid "You need to be a diamond member to computer check your book problems."
-msgstr "Je moet een diamantlid zijn om je boekproblemen te controleren met de computer."
+msgstr "Je moet een diamantlidmaatschap hebben om je boekproblemen te controleren met de computer."
 
 msgid ""
 "Upgrade to analyse problems for quality issues, and add any missing "
@@ -21162,7 +21162,7 @@ msgid "Ignore warnings when alternative move has comment"
 msgstr "Negeer waarschuwingen wanneer alternatieve zet een opmerking heeft."
 
 msgid "Do not supress warnings handled by ALT treatments"
-msgstr "Niet de waarschuwingen onderdrukken die worden afgehandeld door alternatieve behandelingen."
+msgstr "Waarschuwingen niet onderdrukken bij ALT behandelingen"
 
 #
 #, fuzzy
@@ -21173,7 +21173,7 @@ msgid "Upgrade warnings to errors if move annotated with ! or !!"
 msgstr "Upgradewaarschuwingen naar fouten als zet wordt geannoteerd met ! of !!"
 
 msgid "Only show \"annoying alt\" warnings"
-msgstr ""Alleen 'irritante alt' waarschuwingen tonen""
+msgstr "Alleen \"irritante alt\" waarschuwingen tonen"
 
 # 
 #, fuzzy
@@ -21181,7 +21181,7 @@ msgid "Check all moves in all variations"
 msgstr "Wissel tussen variaties"
 
 msgid "Ignored moves already marked ?/??/?!"
-msgstr "Algehele bewegingen al gemarkeerd als ongedaan?"
+msgstr "Genegeeerde zetten al gemarkeerd ?/??/?!"
 
 msgid "Min annoying alt num"
 
@@ -21260,7 +21260,7 @@ msgid ""
 msgstr ""
 
 msgid "No games in your book were marked as GTM games."
-msgstr "Geen spellen in je boek zijn gemarkeerd als GTM-spellen."
+msgstr "Geen partijen in je boek zijn gemarkeerd als GTM-spellen."
 
 #
 #, fuzzy
@@ -21276,7 +21276,7 @@ msgid "Exported {BOOK_TITLE} to PGN"
 msgstr "Uitgevoerd {BOEK_TIJD} naar PGN"
 
 msgid "Adding GTM games to queue"
-msgstr "Spelletjes GTM toevoegen aan de wachtrij"
+msgstr "GTM Partijen toevoegen aan de wachtrij"
 
 msgid ""
 "Waiting for current problem to complete, this may take several minutes, "
@@ -21363,7 +21363,7 @@ msgid "Chess game settings"
 msgstr "Schaakeindspelen"
 
 msgid "Enable GTM for game"
-msgstr "Geef GTM-functionaliteit vrij voor de partij"
+msgstr "GTM-functionaliteit activeren voor deze partij"
 
 msgid "For GTM, play as this colour"
 msgstr "Voor GTM, speel als deze kleur"
@@ -21376,7 +21376,7 @@ msgstr "Kleur Aan Zet:"
 msgid "Auto"
 
 msgid "Game title for GTM"
-msgstr "Speltitel voor GTM"
+msgstr "Partij titel voor GTM"
 
 #
 msgid "Tags"
@@ -21393,7 +21393,7 @@ msgid "Repertoire moves"
 msgstr "Repertoire"
 
 msgid "Opening colour for these repertoire moves"
-msgstr "Opeenende kleur voor deze repertoire zetten"
+msgstr "Opening kleur voor deze repertoire zetten"
 
 #
 #, fuzzy
@@ -21441,12 +21441,12 @@ msgid "Gave book to {USERNAME}"
 msgstr "Welkome {USERNAME}"
 
 msgid "Invited {USERNAME} to book"
-msgstr "{USERNAME} uitgenodigd om te reserveren"
+msgstr "{USERNAME} uitgenodigd voor dit boek"
 
 #
 #, fuzzy
 msgid "Error processing pgn"
-msgstr "Fout tijdens verwerken eindspel"
+msgstr "Fout tijdens verwerken pgn"
 
 #
 #, fuzzy
@@ -21454,12 +21454,12 @@ msgid "Settings saved"
 msgstr "Instellingen opgeslagen"
 
 msgid "Invite user to book"
-msgstr "Gebruiker uitnodigen om een partij te boeken"
+msgstr "Gebruiker uitnodigen voor boek"
 
 #
 #, fuzzy
 msgid "All time"
-msgstr "Gem. Tijd"
+msgstr "Alle tijd"
 
 #
 #, fuzzy
@@ -21750,7 +21750,7 @@ msgid "Jump to next move in opening tree"
 msgstr "Tactiektraining"
 
 msgid "Win %"
-msgstr "Winstpercentage"
+msgstr "Winst %"
 
 msgid "Opex #"
 msgstr "Opex #"
@@ -21787,17 +21787,16 @@ msgstr "Vind op basis van zetten of positie"
 #
 #, fuzzy
 msgid "Find position"
-msgstr "Eindstelling"
+msgstr "Vind positie"
 
-#
-#, fuzzy
+
 msgid "Find moves"
-msgstr "Goede zet"
+msgstr "Vind zetten"
 
 #
 #, fuzzy
 msgid "depth:{MAX_TRAINING_DEPTH}"
-msgstr "diepte:{DEPTH}"
+msgstr "diepte:{MAX_TRAINING_DEPTH}"
 
 #
 #, fuzzy
@@ -21897,12 +21896,12 @@ msgid "Bulk disable moves"
 msgstr "Zwart aan zet"
 
 msgid "No moves matched your criteria"
-msgstr "Geen zetten overeenkwamen met uw criteria"
+msgstr "Geen zetten die overeenkwamen met uw criteria"
 
 msgid "{NUMBER_TO_DISABLE} move will be disabled."
 msgid_plural "{NUMBER_TO_DISABLE} moves will be disabled."
-msgstr "De bewegingen {NUMBER_TO_DISABLE} zullen worden uitgeschakeld."
-msgstr[1] ""
+msgstr "De zet {NUMBER_TO_DISABLE} zal worden uitgeschakeld."
+msgstr[1] "De zetten {NUMBER_TO_DISABLE} zullen worden uitgeschakeld."
 
 msgid ""
 "Are you sure, as they will need to be renabled by hand if you continue and "
@@ -21925,7 +21924,7 @@ msgid "Disabling in progress..."
 msgstr "Schaaktraining"
 
 msgid "Only add evals to moves without existing evaluations"
-msgstr "Voeg alleen evaluaties toe aan zetten zonder bestaande evaluaties."
+msgstr "Voeg alleen evaluaties toe aan zetten zonder evaluaties."
 
 # 
 #, fuzzy

@@ -32,7 +32,7 @@ public class LlamaCommunication {
                 """;
 
 
-        // Bouw de HTTP POST request
+        // Build the HTTP POST request
         text = text.replace("\"", "\\\"");
         String question = json.replace("____PLACEHOLDER____", text).replace("\\\\","\\");
         HttpRequest request = HttpRequest.newBuilder()
@@ -41,12 +41,12 @@ public class LlamaCommunication {
                 .POST(HttpRequest.BodyPublishers.ofString(question, StandardCharsets.UTF_8))
                 .build();
 
-        // Voer de request uit en krijg de response terug
+        // Execute request and get response
         HttpClient client = HttpClient.newHttpClient();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
         if (response.statusCode() == 200) {
-            return response.body(); // Geeft de JSON-string terug van het antwoord
+            return response.body(); // Get JSON from reply..
         } else {
             throw new IOException("Error: " + response.statusCode() + " - " + response.body()+" while processing:["+question+"]");
         }

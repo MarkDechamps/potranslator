@@ -2,7 +2,6 @@ package be.md;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,14 +11,15 @@ import java.util.HashMap;
 import java.util.List;
 
 import static be.md.LlamaCommunication.parseResponseBody;
+import static org.springframework.util.StringUtils.*;
 
 
 public class Pottranslator {
 
-    public static final String LLAMA_API_URL = "http://localhost:11434/api/chat"; // Pas aan aan jouw setup
+    public static final String LLAMA_API_URL = "http://localhost:11434/api/chat"; // Adjust to your setup..
 
     public static void main(String[] args) throws IOException {
-        String poFilePath = "C:/mark/dev/potranslator/demo/input/nl_NL.po";
+        String poFilePath = "C:/mark/dev/potranslator/demo/input/nl_NL.po";//this is the path to the file to translate
 
         List<String> poLines = Files.readAllLines(Paths.get(poFilePath));
         List<String> updatedPoLines = new ArrayList<>();
@@ -30,17 +30,16 @@ public class Pottranslator {
         var prompt = createPrompt();
 
         for (String line : poLines) {
-            //line = line.trim();
 
-            if (line.startsWith("msgid")) {
+            if (line.startsWith("msgid")) {//remember the id...
                 currentMsgid = extractText(line);
                 needsTranslation = false;
-            } else if (line.startsWith("msgstr") && extractText(line).isEmpty()) {
+            } else if (line.startsWith("msgstr") && extractText(line).isEmpty()) {//because here we need it.
                 needsTranslation = true;
             }
 
-            // Vertaal en voeg toe
-            if (needsTranslation && StringUtils.hasText(currentMsgid)) {
+            // Translate and add...
+            if (needsTranslation && hasText(currentMsgid)) {
                 String translation = llamaTranslate(prompt + currentMsgid);
                 if (translation.length() < 100) {
                     updatedPoLines.add("msgstr \"" + translation + "\"");
@@ -53,16 +52,16 @@ public class Pottranslator {
                 //log(currentMsgid + "==>" + translation);
                 currentMsgid = null;
             } else {
-                updatedPoLines.add(line); // Voeg originele lijn toe
+                updatedPoLines.add(line); // Don't touch it, add original line to output
             }
         }
 
         Files.write(Paths.get(poFilePath + "_"), updatedPoLines);
-        log("Vertaling voltooid en opgeslagen in " + poFilePath);
+        log("Translation done and saved in " + poFilePath);
     }
 
     public static String createPrompt() {
-        var library = createLibrary();
+        var library = createDutchLibrary();
         library += "When KRBNKRB is passed in it should be translated to KTLPKTL. The first character of the name of the piece.";
         library += "Try to keep the same layout, also for capitals.";
         library += "Everything between curly braces should be taken over literally.";
@@ -73,7 +72,10 @@ public class Pottranslator {
                 "This is the line:";
     }
 
-    private static String createLibrary() {
+    /**
+     * This is necessary as chess has some specific terms and the AI can use some help..
+     */
+    private static String createDutchLibrary() {
         var map = new HashMap<>();
         map.put("Pin", "Penning");
         map.put("Skewer", "Spies");

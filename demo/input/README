@@ -1,1 +1,10 @@
-tot lijn 7500 gecontroleerd in nl_NL.po
+This program will take an input and try to translate the lines msgId="" with the help of
+a locally running Ollama.
+
+So you need to download and install https://ollama.com/
+and install the translation model "aya-expanse" in it.
+
+https://ollama.com/library/aya-expanse
+ollama run aya-expanse
+
+Install

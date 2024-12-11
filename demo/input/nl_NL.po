@@ -24291,10 +24291,10 @@ msgid "Choices"
 msgstr "Keuzes"
 
 msgid "Percentage of games where the player castled king side."
-msgstr "Percentage van de partijen waarin de speler korte rokade speelde."
+msgstr "Percentage van de partijen waarin de speler korte rokeerde."
 
 msgid "Percentage of games where the player castled queen side."
-msgstr "Percentage van de partijen waarin de speler lange rokade deed."
+msgstr "Percentage van de partijen waarin de speler lange rokeerde."
 
 msgid "Percentage of games where the player did not castle."
 msgstr "Percentage van de partijen waarin de speler niet rokerde."
@@ -24305,16 +24305,16 @@ msgid "Win rates"
 msgstr "Zwart zet schaak"
 
 msgid "Win rate when the player castled king side."
-msgstr "Slagwinstpercentage wanneer de speler korte rokade uitvoerde."
+msgstr "Winst percentage wanneer de speler kort rokeerde"
 
 msgid "Win rate = (number of wins+0.5*number of draws)/total games"
 msgstr "Winstpercentage = (aantal overwinningen + 0,5 * aantal remises) / totaal partijen"
 
 msgid "Win rate when the player castled queen side."
-msgstr "Winstpercentage wanneer de speler lange rokade uitvoert."
+msgstr "Winstpercentage wanneer de speler lange rokeerde."
 
 msgid "Win rate when the player did not castle."
-msgstr "Winstpercentage wanneer de speler niet roerde."
+msgstr "Winstpercentage wanneer de speler niet rokeerde."
 
 msgid "Median castling move #"
 msgstr "Gemiddelde rokadezet #"
@@ -24337,7 +24337,7 @@ msgid "Pawn up"
 msgstr "Pion"
 
 msgid "The median move number that the player was first up at least a pawn."
-msgstr "De gemiddelde zetnummer waarop de speler voor het eerst ten minste een pion vooruit bracht."
+msgstr "De gemiddelde zetnummer waarop de speler voor het eerst ten minste een pion voor stond."
 
 #
 #, fuzzy
@@ -24345,7 +24345,7 @@ msgid "Piece up"
 msgstr "Stijl stukken"
 
 msgid "The median move number that the player was first up at least a piece."
-msgstr "De mediane zetnummer waarop de speler voor het eerst ten minste een stuk voordeel behaalde."
+msgstr "De mediane zetnummer waarop de speler voor het eerst ten minste een stuk voor stond."
 
 msgid ""
 "The median move number that the player first had a forced mating sequence on "
@@ -24363,7 +24363,7 @@ msgid "Pawn down"
 msgstr "Pionnen Storm"
 
 msgid "The median move number that the player was first down at least a pawn."
-msgstr "De middelste zetnummer waarop de speler voor het eerst ten minste een pion achteruit had."
+msgstr "De mediaan zet waarop de speler voor het eerst ten minste een pion achter stond."
 
 #
 #, fuzzy
@@ -24371,7 +24371,7 @@ msgid "Piece down"
 msgstr "Zetten snelheid"
 
 msgid "The median move number that the player was first down at least a piece."
-msgstr "Het mediane bewegingsnummer waarop de speler voor het eerst ten minste een stuk achterstand had."
+msgstr "Het mediaan zet waarop de speler voor het eerst ten minste een stuk achterstand had."
 
 #
 msgid "Mated"
@@ -24418,19 +24418,19 @@ msgid ""
 msgstr ""
 
 msgid "Fast move speed blunder rate"
-msgstr "Snel bewegingsnelheid foutmarge"
+msgstr "Snel tempo blunder rate"
 
 msgid "The percentage of quickly played moves that are blunders."
 msgstr "Het percentage van snel gespeelde zetten die fouten zijn."
 
 msgid "Medium move speed blunder rate"
-msgstr "Gemiddelde bewegingsnelheid foutenpercentage"
+msgstr "Gemiddelde tempo foutenpercentage"
 
 msgid "The percentage moves played at medium speed that are blunders."
-msgstr "Het percentage bewegingen gespeeld bij gemiddelde snelheid die fouten zijn."
+msgstr "Het percentage zetten gespeeld bij gemiddelde snelheid die blunders zijn."
 
 msgid "Slow move speed blunder rate"
-msgstr "Traag bewegingsnelheid foutpercentage"
+msgstr "Traag speel tempo blunder percentage"
 
 msgid "The percentage of slowly played moves that are blunders."
 msgstr "Het percentage van langzaam gespeelde zetten die fouten zijn."
@@ -24439,7 +24439,7 @@ msgid "Very slow move speed blunder rate"
 msgstr "Zeer trage bewegingsnelheid foutmarge"
 
 msgid "The percentage of very slowly played moves that are blunders."
-msgstr "Het percentage van zeer langzaam gespeelde zetten die fouten zijn."
+msgstr "Het percentage van zeer langzaam gespeelde zetten die blunders zijn."
 
 msgid "Piece type vs Accuracy"
 msgstr "Stuktype versus Precisie"
@@ -24455,7 +24455,7 @@ msgid ""
 msgstr ""
 
 msgid "Bishop moves median deviation"
-msgstr "Bisschopsbeweging mediane afwijking"
+msgstr "Loper zetten mediane afwijking"
 
 msgid ""
 "Median deviation from engine's best evaluation when making bishop moves (in "
@@ -24463,7 +24463,7 @@ msgid ""
 msgstr ""
 
 msgid "Knight moves median deviation"
-msgstr "Paard beweegt mediane afwijking"
+msgstr "Paard zetten mediane afwijking"
 
 msgid ""
 "Median deviation from engine's best evaluation when making knight moves (in "
@@ -24501,34 +24501,34 @@ msgid ""
 msgstr ""
 
 msgid "Pawn move blunder rate"
-msgstr "Pawn-beweging foutmarge"
+msgstr "Pion zet blunder percentage"
 
 msgid "Percentage of pawn moves that are blunders."
 msgstr "Percentage van pionbewegingen die fouten zijn."
 
 msgid "Bishop move blunder rate"
-msgstr "Bisschopszet foutmarge"
+msgstr "Loper zet blunder percentage"
 
 msgid "Percentage of bishop moves that are blunders."
-msgstr "Percentage van bisschop-bewegingen die fouten zijn."
+msgstr "Percentage van loper zetten die blunders zijn."
 
 msgid "Knight move blunder rate"
-msgstr "Paardbeweging foutmarge"
+msgstr "Paard zetten blunder rate"
 
 msgid "Percentage of knight moves that are blunders."
-msgstr "Percentage van paardenzwichten die fouten zijn."
+msgstr "Percentage van paarden zetten die fouten zijn."
 
 msgid "Rook move blunder rate"
-msgstr "Toren zet foutpercentage"
+msgstr "Toren zet blunder percentage"
 
 msgid "Percentage of rook moves that are blunders."
-msgstr "Percentage van torenzetten die fouten zijn."
+msgstr "Percentage van torenzetten die blunders zijn."
 
 msgid "Queen move blunder rate"
-msgstr "Koningin zet foutmarge"
+msgstr "Dame zet blunder percentage"
 
 msgid "Percentage of queen moves that are blunders."
-msgstr "Percentage van dame-bewegingen die fouten zijn."
+msgstr "Percentage van dame zetten die blunders zijn."
 
 #
 #, fuzzy
@@ -24536,7 +24536,7 @@ msgid "King move blunder rate"
 msgstr "Pat voorkomen"
 
 msgid "Percentage of king moves that are blunders."
-msgstr "Percentage van koningsposities die fouten zijn."
+msgstr "Percentage van koningszetten die blunders zijn."
 
 #
 #, fuzzy
@@ -24549,7 +24549,7 @@ msgid "Bishop first move"
 msgstr "Kleur Aan Zet:"
 
 msgid "The median move number that the bishop first moved."
-msgstr "Het mediane bewegingsnummer waarop de bisschop voor het eerst bewoog."
+msgstr "Het mediaan zet waarop de loper voor het eerst bewoog."
 
 #
 #, fuzzy
@@ -24557,7 +24557,7 @@ msgid "Knight first move"
 msgstr "Wit aan zet"
 
 msgid "The median move number that the knight first moved."
-msgstr "De middelste bewegingsnummer waarop de paard voor het eerst beweegde."
+msgstr "De mediaan zet waarop de paard voor het eerst bewoog."
 
 # 
 #, fuzzy
@@ -24565,7 +24565,7 @@ msgid "Rook first move"
 msgstr "Kleur Aan Zet:"
 
 msgid "The median move number that the rook first moved."
-msgstr "De middelste zetnummer waarop de toren voor het eerst bewoog."
+msgstr "De mediaan zet waarop de toren voor het eerst bewoog."
 
 #
 #, fuzzy
@@ -24573,7 +24573,7 @@ msgid "Queen first move"
 msgstr "Speel zettenreeks"
 
 msgid "The median move number that the queen first moved."
-msgstr "De middelste zetnummer waarop de dame voor het eerst beweegde."
+msgstr "De mediaan zet waarop de dame voor het eerst beweegde."
 
 #
 #, fuzzy
@@ -24581,7 +24581,7 @@ msgid "King first move"
 msgstr "Goede zet"
 
 msgid "The median move number that the king first moved."
-msgstr "Het mediane bewegingsnummer waarop de koning voor het eerst bewoog."
+msgstr "De mediaan zet waarop de koning voor het eerst bewoog."
 
 #
 #, fuzzy
@@ -24604,7 +24604,7 @@ msgid "Bishop % of moves"
 msgstr "Kleur Aan Zet:"
 
 msgid "Percentage of all moves that are bishop moves."
-msgstr "Percentage van alle zetten die bisschopzetten zijn."
+msgstr "Percentage van alle zetten die loper zetten zijn."
 
 #
 #, fuzzy, javascript-format
@@ -24650,7 +24650,7 @@ msgid "Blunder rate"
 msgstr "Blunder"
 
 msgid "Percentage of moves which are blunders"
-msgstr "Percentage van de zetten die fouten zijn"
+msgstr "Percentage van de zetten die blunders zijn"
 
 #
 #, fuzzy
@@ -24693,7 +24693,7 @@ msgid ""
 msgstr ""
 
 msgid "Median biggest blunder move #"
-msgstr "Mediane grootste foutieve zet #"
+msgstr "Mediaan grootste foutieve zet #"
 
 msgid "The median move number in games where the biggest blunder is occurring."
 msgstr "Het gemiddelde zetnummer in partijen waar de grootste fout wordt gemaakt."
@@ -24884,7 +24884,7 @@ msgid "Op. Rating"
 msgstr "ELO rating"
 
 msgid "Ended by"
-msgstr "Eindig door"
+msgstr "Eindigde door"
 
 #
 #, fuzzy
@@ -24910,7 +24910,7 @@ msgid "Op. Skill"
 msgstr "Op. Vaardigheid"
 
 msgid "Op. APL"
-msgstr "Op. APL (onveranderd, geen duidelijke vertaling gebaseerd op de gegeven regels)"
+msgstr "Op. APL"
 
 msgid "Used"
 msgstr "Gebruikt"
@@ -25120,7 +25120,7 @@ msgid "Win Rate"
 msgstr "Zwart zet schaak"
 
 msgid "Click on the panel header, and go to settings to select a problem set"
-msgstr "Klik op het panelenkopje en ga naar de instellingen om een probleemset te selecteren"
+msgstr "Klik op het panel hoofd en ga naar de instellingen om een probleemset te selecteren"
 
 #
 #, fuzzy
@@ -25143,7 +25143,7 @@ msgid "Non-Checks"
 msgstr "schaakmat"
 
 msgid "Captures"
-msgstr "Slaan"
+msgstr "Geslagen stukken"
 
 #
 #, fuzzy
@@ -25183,7 +25183,7 @@ msgstr[0] "{TOTAL_HOURS} Uur"
 msgstr[1] "{TOTAL_HOURS} Uur"
 
 msgid "high"
-msgstr "Hoge"
+msgstr "hoog"
 
 #
 #, fuzzy
@@ -25363,7 +25363,7 @@ msgid "Upgrade to premium"
 msgstr "Upgraden naar premium"
 
 msgid "Need {NUMBER_NEEDED} non-duplicates"
-msgstr "Het is nodig om {AANTAL_NODIG} unieke stukken."
+msgstr "{NUMBER_NEEDED} niet duplicaten nodig."
 
 #
 #, fuzzy
@@ -25374,7 +25374,7 @@ msgid "No stats panels configured yet."
 msgstr "Geen statistiekenpanelen geconfigureerd tot nu toe."
 
 msgid "Only {TOTAL_PANELS} panels allowed. Remove some to save changes."
-msgstr "Alleen {TOTAL_PANELS} panelen toegestaan. Verwijder enkele om wijzigingen te behouden."
+msgstr "Alleen {TOTAL_PANELS} panelen toegestaan. Verwijder enkele om wijzigingen op te slaan."
 
 msgid ""
 "Only {TOTAL_PANELS} panels allowed. Remove some (or upgrade membership) to "
@@ -25411,7 +25411,7 @@ msgid "vs."
 msgstr "vs"
 
 msgid "Upgrade to {MEMBERSHIP_TYPE} membership, for {UPGRADE_DAYS} days."
-msgstr "Upgraden naar {LIJN_TYP} lidmaatschap voor {AANVULG_Dagen} dagen."
+msgstr "Upgraden naar {MEMBERSHIP_TYPE} lidmaatschap voor {UPGRADE_DAYS} dagen."
 
 msgid ""
 "{QUANTITY} x one {SUBSCRIPTION_PERIOD} {MEMBERSHIP_TYPE} memberships, one "
@@ -25431,18 +25431,16 @@ msgid "Chesstempo.com Gift Card"
 msgstr "Chesstempo partij"
 
 msgid "1 {MEMBERSHIP_PERIOD} {MEMBERSHIP_TYPE} Membership"
-msgstr "{
-    "Lidmaatschapstermijn" : "Lidmaestype"
-}"
+msgstr "1 {MEMBERSHIP_PERIOD} {MEMBERSHIP_TYPE} lidmaatschap"
 
 msgid "Christmas theme {THEME_NUMBER}"
 msgstr "Kerstthema {THEME_NUMBER}"
 
 msgid "Chess theme {THEME_NUMBER}"
-msgstr "Schakethema {THEME_NUMBER}"
+msgstr "Schaak thema {THEME_NUMBER}"
 
 msgid "Skull theme"
-msgstr "Kraakthema"
+msgstr "Doodskop thema"
 
 msgid "Sails theme"
 msgstr "Zeil thema"
@@ -25464,7 +25462,7 @@ msgid "Best line"
 msgstr "Beste Gebruikers Score"
 
 msgid "Only move that avoids mate"
-msgstr "Alleen zet die mat vermijdt"
+msgstr "Enige zet die mat vermijdt"
 
 #
 #, fuzzy
@@ -25472,28 +25470,23 @@ msgid "Only move that mates"
 msgstr "Zwart zet schaak"
 
 msgid "Only move that keeps forced mate"
-msgstr "Alleen zet die een gedwongen mat voorkomt."
+msgstr "Enige zet die een gedwongen mat voorkomt."
 
 msgid "Only move that avoids getting crushed"
-msgstr "Alleen zet die het vermijdt om verpletterd te worden"
+msgstr "Enige zet die het vermijdt om verpletterd te worden"
 
-#
-#, fuzzy
 msgid "Only move that avoids a losing position"
-msgstr "Alleen zet die een verliespositie vermijdt"
-"Door deze zet kan je tegenstander je mat zetten terwijl jij je in een "
-"verliezende positie bevond"
+msgstr "Enige zet die een verloren stelling vermijdt"
 
 #. second best is not losing, but also not winning and best is winning
 #. and best is at least 1.1 pawns better than second best.
 msgid "Only move that keeps the advantage"
-msgstr "Alleen zet die het voordeel behoudt"
+msgstr "Enige zet die het voordeel behoudt"
 
 #
 msgid "Move leads to getting mated from a winning position"
-msgstr "Beweging leidt tot mat worden vanuit een winnende positie"
-"Door deze zet kan je tegenstander je mat zetten terwijl jij je in een "
-"winnende positie bevond"
+msgstr "Zet leidt tot mat gezet worden vanuit een winnende positie"
+
 
 #
 #. ** Prefix to variation line showing better move during engine analysis
@@ -25504,25 +25497,19 @@ msgstr "Pat voorkomen"
 #
 #, fuzzy
 msgid "Move leads to getting mated from an already completely lost position"
-msgstr "Zet de zet leidt tot een mat uit een positie die al volledig verloren is."
-"Door deze zet kan je tegenstander je mat zetten van voordien uitzichtloze "
-"positie"
+msgstr "Zet de zet leidt tot mat gezet worden uit reeds volledig verloren stelling."
 
 #. ** Prefix to variation line showing better move during engine analysis
 msgid "Avoiding mate, but still losing"
-msgstr "Door mat te vermijden, maar toch verliest."
+msgstr "Vermijd mat, maar nog altijd verliezend."
 
 #
 msgid "Move leads to getting mated from a losing position"
-msgstr "Beweging leidt tot mat worden uit een verliezende positie"
-"Door deze zet kan je tegenstander je mat zetten terwijl jij je in een "
-"verliezende positie bevond"
+msgstr "Door deze zet wordt je mat gezet vanuit een verliezende stelling"
 
 #
 msgid "Move leads to getting mated from a non-mating position"
-msgstr "Beweging leidt tot een mat uit een niet-matende positie"
-"Door deze zet kan je tegenstander je mat zetten terwijl hij zich voordien "
-"niet de mogelijkheid om je mat te zetten."
+msgstr "Door deze zet word je mat gezet vanuit een niet matlopende stelling."
 
 #
 #, fuzzy
@@ -25537,16 +25524,14 @@ msgstr "Mat behouden"
 
 #
 msgid "Move turns a forced mate into a non-mate, but still winning position"
-msgstr "Zet een zet een gedwongen mat om in een niet-mat positie, maar nog steeds winnend."
-"Zet verandert een gedwongen schaak positie in een niet-schaak positie, maar "
-"nog steeds winnende positie"
+msgstr "Zet verandert een mat lopende naar een niet mat lopende , maar nog steeds winnende positie"
 
 #
 msgid "Move turns a forced mate into a non-mate position"
 msgstr "Zet verandert een gedwongen schaak in een niet-partner positie"
 
 msgid "Missed opponent blundering into mate, but still very won position"
-msgstr "Gemiste kans van de tegenstander om in een mat te raken, maar nog steeds een zeer winnende positie."
+msgstr "Gemiste tegenstander die in een mat blundert, maar nog steeds een zeer gewonnen positie."
 
 #
 #. ** Prefix to variation line showing better move during engine analysis
@@ -25557,7 +25542,7 @@ msgstr "Rating soort"
 msgid "Missed opponent blundering into mate, but still winning position"
 
 msgid "Missed opponent blundering into mate"
-msgstr "Te laat, tegenstander maakt een blunder en wordt mat gezet."
+msgstr "Tegenstander maakt een blunder en wordt mat gezet."
 
 #
 msgid "Move leads to getting mated more quickly"
@@ -25573,8 +25558,6 @@ msgstr "Langer mat"
 #. slowed down mate
 msgid "Move leads to a longer mate"
 msgstr "Zet de zet leidt tot een langere mat."
-"Door deze zetten duurt het langer alvorens je je tegenstander schaak kunt "
-"zetten."
 
 #
 #. ** Prefix to variation line showing better move during engine analysis
@@ -25584,14 +25567,14 @@ msgstr "Wit zet schaak"
 
 #
 msgid "Inaccuracy in still won position"
-msgstr "Onnauwkeurigheid in nog steeds gewonnen positie"
+msgstr "Onnauwkeurigheid in nog steeds gewonnen stelling"
 
 #. ** Prefix to variation line showing better move during engine analysis
 msgid "Slightly better was"
 
 #
 msgid "Mistake in still won position"
-msgstr "Fout in nog steeds gewonnen positie"
+msgstr "Fout in nog steeds gewonnen stelling"
 
 #. ** Prefix to variation line showing better move during engine analysis
 msgid "Somewhat better was"
@@ -25607,11 +25590,8 @@ msgstr "Meer dan 2 pionenvoordeel opgegeven, maar nog steeds winnend."
 msgid "Better was"
 msgstr "Beter is..."
 
-#
-#, fuzzy
 msgid "Missed opponent blunder, but still winning"
 msgstr "Gemiste fout van de tegenstander, maar nog steeds winnend"
-"Gaf meer dan 2 pionnen voordeel op, maar is nog steeds aan de winnende hand"
 
 # 
 #. ** Prefix to variation line showing better move during engine analysis
@@ -25644,16 +25624,16 @@ msgid "Punishing the blunder"
 msgstr "Pat voorkomen"
 
 msgid "Too many threads"
-msgstr "Te veel draadjes"
+msgstr "Te veel threads"
 
 msgid "Engine interrupted, needed for another task"
-msgstr "Motor onderbroken, nodig voor een andere taak"
+msgstr "Engine onderbroken, nodig voor een andere taak"
 
 msgid "Quota exceeded"
 msgstr "De limiet is overschreden"
 
 msgid "Engine exited unexpectedly"
-msgstr "Motor onverwacht afgesloten"
+msgstr "Engine onverwacht afgesloten"
 
 #. '\u203C', // !!
 msgid "Brilliant Move"
@@ -25911,7 +25891,7 @@ msgid "Black pieces"
 msgstr "Zwart aan zet"
 
 msgid "{PIECE_COLOUR} to move"
-msgstr "{PIECE_COLOUR} naar bewegen"
+msgstr "{PIECE_COLOUR} aan zet"
 
 #
 #. Queen character
@@ -25955,10 +25935,8 @@ msgstr "schaak"
 msgid "checkmate"
 msgstr "schaakmat"
 
-#
-#, fuzzy
 msgid "promote"
-msgstr "Bevorder lijn"
+msgstr "promotie"
 
 #
 msgid "mate"
@@ -26123,47 +26101,46 @@ msgid "Spanish"
 msgstr "Beïndigd"
 
 msgid "French"
+msgstr "Frans"
 
 msgid "Russian"
 msgstr "Russisch"
 
-#
-#, fuzzy
 msgid "Polish"
-msgstr "Publiek"
+msgstr "Pools"
 
 msgid "German"
+msgstr "Duits"
 
 msgid "Italian"
+msgstr "Italiaans"
 
 msgid "Turkish"
+msgstr ""
 
 msgid "Dutch"
-msgstr ""KRBNKRB" wordt vertaald naar "KTLPKTL"."
+msgstr "Nederlands"
 
 msgid "Swedish"
+msgstr ""
 
-#
-#, fuzzy
 msgid "Greek"
-msgstr "Groen"
+msgstr "Grieks"
 
-#
-#, fuzzy
 msgid "Chinese"
-msgstr "Schaakengines"
+msgstr "Chinese"
 
 msgid "Hungarian"
+msgstr ""
 
 msgid "Norwegian"
-msgstr "Noorweegs"
+msgstr "Noors"
 
 msgid "Japanese"
+msgstr "Japans"
 
-#
-#, fuzzy
 msgid "Persian"
-msgstr "Persoonlijk"
+msgstr "Perzisch"
 
 #
 #. short version of 1 move/period string for mobile

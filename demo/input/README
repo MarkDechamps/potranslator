@@ -1,10 +1,17 @@
-This program will take an input and try to translate the lines msgId="" with the help of
-a locally running Ollama.
+# Program Overview
 
-So you need to download and install https://ollama.com/
-and install the translation model "aya-expanse" in it.
+This program takes input and translates lines containing `msgId=""` with the help of a locally running Ollama.
 
-https://ollama.com/library/aya-expanse
-ollama run aya-expanse
+## Prerequisites
 
-Install
+1. Download and install Ollama: [https://ollama.com/](https://ollama.com/).
+2. Install the translation model **"aya-expanse"** in Ollama:
+   - Visit: [https://ollama.com/library/aya-expanse](https://ollama.com/library/aya-expanse).
+   - Run the following command:
+     ```bash
+     ollama run aya-expanse
+     ```
+
+## Usage
+
+There is a `LlamaCommunicationTest` available to perform the translations.

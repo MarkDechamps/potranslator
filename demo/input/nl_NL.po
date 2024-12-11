@@ -22000,7 +22000,7 @@ msgid "Our Chesstempo games"
 msgstr "Chesstempo partij"
 
 msgid "Only add explorer stats to moves without existing values"
-msgstr "Alleen statistieken van verkenners toevoegen aan zetten zonder bestaande waarden"
+msgstr "Alleen statistieken van verkenner toevoegen aan zetten zonder bestaande waarden"
 
 msgid "Clear explorer stats from non-matched moves"
 msgstr "Statistieken verkenner wissen van niet-gematchte zetten"
@@ -22198,7 +22198,7 @@ msgid "Next: {NEXT_SCHEDULED_TIME}"
 msgstr "Volgende: {NEXT_SCHEDULED_TIME}"
 
 msgid "Learnt"
-msgstr "Gesleerd"
+msgstr "Geleerd"
 
 #
 #. / Label for repertoire scheduling stats
@@ -22207,7 +22207,7 @@ msgid "Learning"
 msgstr "Opening"
 
 msgid "Unseen"
-msgstr "ongezien"
+msgstr "Ongezien"
 
 msgid "Repertoire move has no explorer results"
 msgstr "De repertoirezet heeft geen verkennerresultaten."
@@ -22282,7 +22282,7 @@ msgid "Breadth over depth"
 msgstr "Breedte boven diepte"
 
 msgid "Common positions first"
-msgstr ""Gewone posities eerst""
+msgstr "Gewone posities eerst"
 
 # 
 #, fuzzy
@@ -22290,7 +22290,7 @@ msgid "Requires opening explorer sync"
 msgstr "Openingsverkenner"
 
 msgid "Consider leadup moves when training branch"
-msgstr "Overweeg voorafgaande zetjes bij het trainen van takken"
+msgstr "Overweeg voorafgaande zetten bij het trainen van vertakkingen"
 
 msgid "Reinforce minimum correct"
 msgstr "Versterk minimaal correct"
@@ -22397,10 +22397,10 @@ msgid "Preview moves in all lines"
 msgstr "Voorbeeldzetten op alle lijnen"
 
 msgid "Candidate moves as arrows when not training"
-msgstr "Kandidaatzetten worden als pijlen weergegeven wanneer niet in training."
+msgstr "Kandidaatzetten tonen als pijlen wanneer niet in training."
 
 msgid "Top explorer move as arrow when not training"
-msgstr "Top ontdekkingsreiziger zet als pijl wanneer niet in training"
+msgstr "Top verkenner zet als pijl wanneer niet in training"
 
 #
 #, fuzzy
@@ -22432,7 +22432,7 @@ msgid ""
 msgstr ""
 
 msgid "Sort due items by"
-msgstr "Sorteer de items in volgorde"
+msgstr "Sorteer verval items volgens"
 
 #
 #, fuzzy
@@ -22440,7 +22440,7 @@ msgid "Variation"
 msgstr "Varianten"
 
 msgid "Due date"
-msgstr "Doortermijn"
+msgstr "Vervaldatum"
 
 msgid "Sort undue items by variation window (hours)"
 msgstr "Onthoud onnodige items sorteren op basis van variatievenster (uren)"
@@ -22475,7 +22475,7 @@ msgid "Max days into future"
 msgstr "Aantal dagen sinds laatst gezien"
 
 msgid "The maximum number of days a move will be scheduled into the future."
-msgstr "Het maximale aantal dagen dat een zet in het vooruitzicht wordt gepland."
+msgstr "Het maximale aantal dagen dat een zet op voorhand wordt gepland."
 
 # 
 #, fuzzy
@@ -22483,7 +22483,7 @@ msgid "Mistake reschedule time (minutes)"
 msgstr "Kortste oplostijd (in seconden)"
 
 msgid "How long until mistakes are scheduled for review (in minutes)."
-msgstr "Hoe lang duurt het voordat fouten gepland zijn voor herziening (in minuten)."
+msgstr "Hoe lang voordat fouten ingepland worden voor herziening (in minuten)."
 
 # 
 #, fuzzy
@@ -22501,7 +22501,7 @@ msgid "Preview reschedule time (minutes)"
 msgstr "Kortste oplostijd (in seconden)"
 
 msgid "How long until previewed moves are scheduled for review (in minutes)."
-msgstr "Hoe lang duurt het tot de bekeken zetten worden gepland voor beoordeling (in minuten)."
+msgstr "Hoe lang voordat de bekeken zetten worden ingepland voor beoordeling (in minuten)."
 
 #
 #, fuzzy
@@ -22524,7 +22524,7 @@ msgid ""
 msgstr ""
 
 msgid "You are about to delete all comments from all repertoires"
-msgstr "Je bent op het punt om alle opmerkingen uit alle repertoireën te verwijderen."
+msgstr "Je staat op het punt om alle opmerkingen uit alle repertoires te verwijderen."
 
 #
 #, fuzzy
@@ -22603,32 +22603,24 @@ msgid "Number played"
 msgstr "Aantal zetten:"
 
 msgid "Overdue"
-msgstr "Overduur"
+msgstr "Overtijd"
 
 #
 #, fuzzy
 msgid "Year+"
-msgstr "Jaar"
+msgstr "Jaar+"
 
-# 
-#, fuzzy
 msgid "Repertoire stats"
-msgstr "Repertoire"
+msgstr "Repertoire stats"
 
-# 
-#, fuzzy
 msgid "ct-white-repertoire"
-msgstr "Maak opgavenreeks"
+msgstr "ct-white-repertoire"
 
-# 
-#, fuzzy
 msgid "ct-black-repertoire"
-msgstr "Repertoire"
+msgstr "ct-black-repertoire"
 
-# 
-#, fuzzy
 msgid "ct-all-repertoires"
-msgstr "Repertoire"
+msgstr "ct-all-repertoires"
 
 # 
 #, fuzzy
@@ -22681,7 +22673,7 @@ msgid "Export repertoire to PGN"
 msgstr "Verken Repertoire van Speler per Kleur"
 
 msgid "Finish training before trying to reset"
-msgstr "Oefen af voordat je probeert opnieuw in te stellen"
+msgstr "Werk training af voordat je probeert te resetten"
 
 # 
 #, fuzzy
@@ -22700,7 +22692,7 @@ msgid ""
 msgstr ""
 
 msgid "You are about to reset all stats on the current repertoire"
-msgstr "Je bent op het punt om alle statistieken in het huidige repertoire te wissen."
+msgstr "Je staat op het punt om alle statistieken in het huidige repertoire te wissen."
 
 #
 #, fuzzy
@@ -22716,7 +22708,7 @@ msgid "Reset scheduling"
 msgstr "Herstart planning"
 
 msgid "Reset branch"
-msgstr "Herstel tak"
+msgstr "Reset vertakking"
 
 #
 #, fuzzy
@@ -22796,7 +22788,7 @@ msgid "Add new repertoire"
 msgstr "Voeg een nieuwe commentaar toe"
 
 msgid "Choose name and colour before importing PGN"
-msgstr "Kies naam en kleur voordat je PGN importeert"
+msgstr "Kies naam en kleur voordat je de PGN importeert"
 
 msgid ""
 "You've imported your first repertoire. Make moves on the board to add "
@@ -22878,7 +22870,7 @@ msgid "Movelist comments"
 msgstr "Kopieer naar reactie"
 
 msgid "Sunburst"
-msgstr "Zonstraal"
+msgstr "Sunburst"
 
 # 
 #, fuzzy
@@ -22891,7 +22883,7 @@ msgid "Black resistant"
 msgstr "Resultaten Zwart"
 
 msgid "Due now"
-msgstr "Door nu"
+msgstr "Tot nu"
 
 # 
 #, fuzzy
@@ -22975,7 +22967,7 @@ msgid "Unable to import repertoire with duplicate name: {NAME}"
 msgstr "Onmogelijk om repertoire te importeren met dubbele naam: {NAME}"
 
 msgid "PGN error:{PGN_ERROR}"
-msgstr "Fout in PGN:{FOUT_IN_PGN}"
+msgstr "Fout in PGN:{PGN_ERROR}"
 
 #
 #, fuzzy
@@ -22989,7 +22981,7 @@ msgstr "Geen passende uitdagingen gevonden"
 
 msgid "Processing analysis request for {NUMBER_MOVES} move."
 msgid_plural "Processing analysis request for {NUMBER_MOVES} moves."
-msgstr "Analyseverzoek voor {NUMBER_MOVES} zetten verwerken."
+msgstr "Analyseverzoek om {NUMBER_MOVES} zetten verwerken."
 msgstr[1] ""
 
 #
@@ -23008,7 +23000,7 @@ msgid "No useable moves found"
 msgstr "Geen spelen gevonden"
 
 msgid "All moves already had evaluations in the engine eval cache."
-msgstr "Alle zetten hadden al evaluaties in de motor eval cache."
+msgstr "Alle zetten hadden al evaluaties in de engine eval cache."
 
 msgid ""
 "You may need to run the resync evals function via the blue circle menu to "
@@ -23016,10 +23008,10 @@ msgid ""
 msgstr ""
 
 msgid "{NUM_MISSING_EVALS} total moves were missing evaluations."
-msgstr "Het aantal ontbrekende evaluaties voor {NUM_MISSING_EVALS} totale zetten was niet beschikbaar."
+msgstr "{NUM_MISSING_EVALS} totale zetten misten evaluaties."
 
 msgid "{NUM_ALREADY_CACHED} moves already had pre-cached evaluations."
-msgstr "Het aantal bewegingen met vooraf gecachede evaluaties was al {NUM_ALREADY_CACHED}."
+msgstr "{NUM_ALREADY_CACHED} zetten hadden reeds pre-cached evaluaties."
 
 msgid ""
 "You may need to run the sync eval action to attach the evaluations to your "
@@ -23036,7 +23028,7 @@ msgid "Ignored {NUM_IGNORED} moves from the endgame."
 msgstr "Ignoreren {NUM_IGOREN} zetten uit het eindspel."
 
 msgid "{ANALYSIS_QUOTA_LEFT} move analysis quota left for today."
-msgstr "{ "ANALYSIS_QUOTA_LEFT": "Analyseer quotum links voor vandaag" }"
+msgstr "{ANALYSIS_QUOTA_LEFT} zet analyse quota over voor vandaag."
 
 #, fuzzy
 msgid "Still processing the last analysis request, please try again soon."
@@ -23058,10 +23050,10 @@ msgid ""
 msgstr ""
 
 msgid "Attempt to promote move from a global repertoire"
-msgstr "Probeer de zet uit een globale repertoire te promoten"
+msgstr "Poging om de zet uit een globale repertoire te promoten"
 
 msgid "Select a branch to copy"
-msgstr "Selecteer een tak om te kopiëren"
+msgstr "Selecteer een vertakking om te kopiëren"
 
 msgid ""
 "You can't copy moves while training a global repertoire. Choose a specific "
@@ -23113,10 +23105,10 @@ msgid ""
 msgstr ""
 
 msgid "Attempt to delete move from a global repertoire"
-msgstr "Probeer het bewegingsrepertoire wereldwijd te verwijderen"
+msgstr "Poging tot verwijderen van zet uit globaal repertoire"
 
 msgid "You are about to delete {NUMBER_MOVES} moves"
-msgstr "Je bent op het punt om {NUMMER_POEGEN} poegen te verwijderen"
+msgstr "Je staat op het punt om {NUMBER_MOVES} zetten te verwijderen"
 
 #
 #, fuzzy
@@ -23134,7 +23126,7 @@ msgid "All black repertoires"
 msgstr "Voeg een nieuwe commentaar toe"
 
 msgid "You are about to delete a repertoire with {NUMBER_MOVES} moves"
-msgstr "Je bent op het punt om een repertoire te verwijderen met {NUMBER_MOVES} zetten"
+msgstr "Je staat op het punt om een repertoire te verwijderen met {NUMBER_MOVES} zetten"
 
 # 
 #, fuzzy
@@ -23170,7 +23162,7 @@ msgid ""
 msgstr ""
 
 msgid "Attempt to add shortcut to a global repertoire"
-msgstr "Probeer een afkorting toe te voegen aan een globale repertoire"
+msgstr "Poging tot toevoegen van snelkoppeling aan een globale repertoire"
 
 #
 #, fuzzy
@@ -23389,10 +23381,10 @@ msgid "Opponent Skill"
 msgstr "Tegenspeler wint"
 
 msgid "Av Pawn Loss"
-msgstr "Verlies van een pion"
+msgstr "Av Pion verlies"
 
 msgid "Opp. Av Pawn Loss"
-msgstr "Tegenstander Verlies van Paard"
+msgstr "Tegenst. Av Pion Verlies "
 
 # 
 #, fuzzy
@@ -23478,12 +23470,13 @@ msgid "Mate length at end"
 msgstr "Datum laatste keer gezien"
 
 msgid "ct-filter-field-value-field-helper"
-msgstr "ct-filter-field-value-field-helper -> ct-filter-veld-waarde-veld-hulpprogramma"
+msgstr "ct-filter-field-value-field-helper"
 
 msgid "is equal to"
+msgstr "is gelijk aan"
 
 msgid "is not equal to"
-msgstr ""is niet gelijk aan""
+msgstr "is niet gelijk aan"
 
 # 
 #, fuzzy
@@ -23491,23 +23484,22 @@ msgid "is greater than"
 msgstr "Maak label"
 
 msgid "is at least"
-msgstr "De lijn "is at least" wordt in het Nederlands vertaald naar "is ten minste"."
+msgstr "is ten minste"
 
 msgid "is less than"
-msgstr "Het is minder dan"
+msgstr "is minder dan"
 
 msgid "no more than"
-msgstr "Geen meer dan"
+msgstr "niet meer dan"
 
 msgid "is between"
-msgstr ""KRBNKRB" wordt vertaald naar "KTLPKTL"."
+msgstr "is tussen"
 
-#
-#, fuzzy
 msgid "on"
-msgstr "Ma"
+msgstr "aan"
 
 msgid "not on"
+msgstr "niet aan"
 
 #
 #, fuzzy
@@ -23518,6 +23510,7 @@ msgid "on or after"
 msgstr "Op of na"
 
 msgid "before"
+msgstr "voor"
 
 msgid "on or before"
 msgstr "Op of voor"
@@ -23530,7 +23523,7 @@ msgid "in"
 msgstr "Penning"
 
 msgid "Anything"
-msgstr ""KRBNKRB" wordt vertaald naar "KTLPKTL"."
+msgstr "Om het even wat"
 
 msgid "any of"
 
@@ -23739,7 +23732,7 @@ msgstr "Computer evaluatie: {ENGINE_MOVE_EVAL}"
 
 #
 msgid "Played Suboptimal Master Move: {USER_MOVE} ({USER_MOVE_EVAL})"
-msgstr "Gespeld suboptimale Meesterzet: {USER_MOVE} ({USER_MOVE_EVAL})"
+msgstr "Suboptimale Meesterzet gespeeld: {USER_MOVE} ({USER_MOVE_EVAL})"
 
 #
 msgid "Played Master Blunder: {USER_MOVE} ({USER_MOVE_EVAL})"
@@ -23866,34 +23859,29 @@ msgid "White/Draw/Black"
 msgstr "Winst Wit/Remise/Winst Zwart"
 
 msgid "DTZ: {DEPTH_TO_ZERO}"
-msgstr "DTZ: {DIEPEURZETTING NAAI DE NUL}"
+msgstr "DTZ: {DEPTH_TO_ZERO}"
 
 #
 #, fuzzy
 msgid "Mate in {MATE_LENGTH}"
-msgstr "Mat in 9"
+msgstr "Mat in {MATE_LENGTH}"
 
-#
-#, fuzzy
+
 msgid "Mating"
-msgstr "Rating"
+msgstr "Matvoering"
 
-#
-#, fuzzy
 msgid "Mated in {MATE_LENGTH}"
-msgstr "Mat in 9"
+msgstr "Mat in {MATE_LENGTH}"
 
-#
-#, fuzzy
 msgid "Getting mated"
-msgstr "Instellingen opgeslagen"
+msgstr "Mat gezet worden"
 
 #
 msgid "Draw by 50 move rule"
 msgstr "Remise vanwege de 50-zettenregel."
 
 msgid "DTM: {DEPTH_TO_MATE}"
-msgstr "DTM: {DIEPTENIS_NAAR_MAT}"
+msgstr "DTM: {DEPTH_TO_MATE}"
 
 #
 msgid ""
@@ -23932,7 +23920,7 @@ msgid "Col2"
 msgstr "Kolom 2"
 
 msgid "col3"
-msgstr ""KRBNKRB" -> "KTLPKTL" (Volgens de gegeven regels en het JSON-kaartje)"
+msgstr "col3"
 
 msgid ""
 "No stats available, try a larger benchmark range, or less restrictive filters"
@@ -23958,7 +23946,7 @@ msgid "Benchmark target"
 msgstr "Benchmark doel"
 
 msgid "Request benchmark comparison against other users"
-msgstr "Vraag een vergelijkingsmeting van benchmarks met andere gebruikers."
+msgstr "Vraag een vergelijking van benchmarks met andere gebruikers."
 
 # 
 #, fuzzy
@@ -23977,10 +23965,8 @@ msgstr "Je moet ten minste gouden lid zijn om studenten te beheren."
 "Je hebt studenten maar je hebt een Gouden lidmaatschap nodig om de lijst van "
 "studenten te bezichtigen."
 
-#
-#, fuzzy
 msgid "# games"
-msgstr "Speel zetten"
+msgstr "# partijen"
 
 #
 #, fuzzy
@@ -24081,21 +24067,19 @@ msgid ""
 msgstr ""
 
 msgid "Av opening skill score"
-msgstr "Van openingsvaardigheid score"
+msgstr "Gem. openingsvaardigheid score"
 
 msgid "Average Skill score for the opening phase of the game."
 msgstr "Gemiddelde vaardigheidsscore voor de openingsfase van het spel."
 
 msgid "Av middle game skill score"
-msgstr "Score voor vaardigheid middenspel"
+msgstr "Gem. Score voor vaardigheid middenspel"
 
 msgid "Average Skill score for the middle game."
 msgstr "Gemiddelde vaardigheidsscore voor het middenspel."
 
-# 
-#, fuzzy
 msgid "Av endgame skill score"
-msgstr "Gemiddelde score: "
+msgstr "Gemiddelde eindspel vaardigheidsscore: "
 
 msgid "Average Skill score for the endgame phase of the game."
 msgstr "Gemiddelde vaardigheidsscore voor de eindspelfase van de partij."
@@ -24152,7 +24136,7 @@ msgid "Min opponent lost to"
 msgstr "Rating Tegenstander"
 
 msgid "The lowest rated opponent you lost to."
-msgstr "De tegenstander met de laagste rating die je hebt verslagen."
+msgstr "De tegenstander met de laagste rating waartegen je verloor."
 
 #
 #, fuzzy
@@ -24301,7 +24285,7 @@ msgid "Total time playing"
 msgstr "Totale tijd"
 
 msgid "Total time spent playing (i.e, the sum of all game durations)."
-msgstr "Totaal tijd besteed aan spelen (d.w.z., de som van alle spelduurheden)."
+msgstr "Totaal tijd besteed aan spelen (d.w.z., de som van alle spel duurtijden)."
 
 msgid "Choices"
 msgstr "Keuzes"
